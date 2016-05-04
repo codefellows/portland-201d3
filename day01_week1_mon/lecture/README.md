@@ -11,13 +11,13 @@
 
 - Prework interactive review, using ideas borrowed from (or inspired by) the **Socratic Method** *[60 min]*
   - HTML Chapter 1: "Structure"
-    - Document structure, including `&lt;head&gt;`, `&lt;title&gt;`, `&lt;body&gt;`
-    - Other tags: `&lt;h1&gt;`, `&lt;h2&gt;`, etc., `&lt;p&gt;`, `&lt;div&gt;`, `&lt;ul&gt;`, `&lt;li&gt;`, ...
+    - Document structure, including `<head>`, `<title>`, `<body>`
+    - Other tags: `<h1>`, `<h2>`, etc., `<p>`, `<div>`, `<ul>`, `<li>`, ...
     - Attributes
-    - Preview: external links in: `&lt;script&gt;` (two types), `&lt;link&gt;`, etc., `&lt;img&gt;`, `&lt;video&gt;`, `&lt;audio&gt;`, ...s
+    - Preview: external links in: `<script>` (two types), `<link>`, etc., `<img>`, `<video>`, `<audio>`, ...
   - HTML Chapter 8: "Extra Markup"
     - HTML comments
-    - `&lt;meta&gt;` tags
+    - `<meta>` tags
   - HTML Chapter 17: "HTML5 Layout"
     - Semantic HTML (structure and layout)
   - HTML Chapter 18: "Process & Design"
