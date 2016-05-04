@@ -49,6 +49,6 @@ Advice for success in this course and in your future career as a software engine
   - Pair/mob code
   - Team projects
   - Ask peers and staff for help.
-  - Offer to collaborate; help debug
-  - Write open source
-  - Do hack-a-thons
+  - Offer to collaborate; help debug.
+  - Open source
+  - Hack-a-thons
