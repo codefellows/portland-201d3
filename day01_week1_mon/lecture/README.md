@@ -9,6 +9,8 @@
 
 - [10 minute break]
 
+- Critically Important Practices - slides
+
 - Prework interactive review, using ideas borrowed from (or inspired by) the **Socratic Method** *[60 min]*
   - HTML Chapter 1: "Structure"
     - Document structure, including `<head>`, `<title>`, `<body>`
