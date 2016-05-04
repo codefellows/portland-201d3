@@ -30,23 +30,23 @@
 
   An example to illustrate the requirements:
 
-    function getUnique(a,b,c,d,e) {
-      // Add logic here
-      // Return an array that contains only unique values here
-    }
-    console.log(getUnique(3, -9, 3, -9, -9)); // [3, -9]
-    console.log(getUnique([1,2], "shoe", true, "shoe", true)); // [[1,2], "shoe", true]
+      function getUnique(a,b,c,d,e) {
+        // Add logic here
+        // Return an array that contains only unique values here
+      }
+      console.log(getUnique(3, -9, 3, -9, -9)); // [3, -9]
+      console.log(getUnique([1,2], "shoe", true, "shoe", true)); // [[1,2], "shoe", true]
 - JS-8 (intermediate): Create a function that accepts five parameters and prints out all five parameters. Call that function using a single array that contains 5 elements, but "spread" that array into five arguments during the call. Hint: Look up .apply() and related array methods.
 - JS-9 (advanced): Same as JS-8, but create an object constructor function and do the same "spread" operation. This is easy to do in JS version 6, but a bit complex in JS 5.
 - JS-10 (advanced): Write a function that accepts one parameter N, and prints a sequence of numbers 1 thru N, inclusive, using recursion (no explicit loops or functional methods). Write JS code that calls your function. Example:
 
-    function myCountPrinter() {
-      // Write your logic here
-    }
+      function myCountPrinter() {
+        // Write your logic here
+      }
 
-    myCountPrinter(1); // Prints 1<br>
-    myCountPrinter(4); // Prints 1, 2, 3, 4<br>
-    myCountPrinter(0); // (N/A -- This doesn't print anything)
+      myCountPrinter(1); // Prints 1<br>
+      myCountPrinter(4); // Prints 1, 2, 3, 4<br>
+      myCountPrinter(0); // (N/A -- This doesn't print anything)
 
 - JS-11 (advanced): Write a function that has one parameter and returns an array that contians all primes (prime numbers) less than N.
 
