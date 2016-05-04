@@ -44,9 +44,9 @@ Lunch Break
   - `atom .eslintrc` in home dir.; copy-and-paste contents of .eslintrc, then in Atom's package settings, be sure linter-eslint has the right path for .eslintrc
 
 - Verify Student Toolbelts *[30-60 min]*<br>
-  Run quick tests belowto verify students have functionality of all of the core pieces of your development environment:
+  Run quick tests below to verify that all the main pieces of your development environment are working:
     - Atom: type `atom` in the command line to verify that it opens properly. Command line tools may need to be installed.
-    - Atom packages: Be sure to have linter, minimap,and  open-in-browser installed.
-    - Chrome: how to open the console
-    - Git: enter `which git` in the command line to verify installation
-    - Directory structure: Have students set up a directory at ~/codefellows/201/ in which they will store their classwork. Go over directory structure in general; compare to GUI.
+    - Atom packages: Be sure to have `linter`, `minimap`, and `open-in-browser` installed.
+    - Chrome: open the console
+    - Git: enter `which git` on the command line to verify installation
+    - Folder structure: Set up a directory at ~/codefellows/201/ to store your classwork. Go over folder structure in general and compare to GUI.
