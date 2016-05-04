@@ -12,8 +12,7 @@ Your grade for labwork today include the items listed below and in lab-assignmen
 - Using these responses, return an alert to the user that concatenates their response into some kind of reply like we did in class.
 - In addition, for each response, create a console.log() message that indicates the user's reponse, as we showed in class.
 - In the HTML file, place the six questions within a series of `<p>` tags so that they are listed on the screen.
-- If there are any lingering issues with the setup or functionality of your laptop and the software installations, we need to individually address that right away in lab.<br>
-  **Note**: Students using Linux or Windows should coordinate with the teaching staff.
+- If there are any lingering issues with the setup or functionality of your laptop and the software installations, we need to individually address that right away in lab.
 
 # Submitting Your Assignment
 
