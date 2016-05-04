@@ -7,29 +7,33 @@
 - Academic overview slides *[30 min]*
   - Overview of topics to be covered in this course, and how topics fit into overall academic program
 
-10 minute break
+- [10 minute break]
 
-- Prework interactive review *[60 min]*
+- Critically Important Practices - slides
+
+- Prework interactive review, using ideas borrowed from (or inspired by) the **Socratic Method** *[60 min]*
   - HTML Chapter 1: "Structure"
-    - document structure
-    - tags
-    - attributes
-    - HTML document (head, title, body)
+    - Document structure, including `<head>`, `<title>`, `<body>`
+    - Other tags: `<h1>`, `<h2>`, etc., `<p>`, `<div>`, `<ul>`, `<li>`, ...
+    - Attributes
+    - Preview of external links in `<script>`, `<link>`, `<img>`, `<video>`, `<audio>`, `<iframe>` ...
   - HTML Chapter 8: "Extra Markup"
-    - comments
-    - meta tags
+    - HTML comments
+    - `<meta>` tags
   - HTML Chapter 17: "HTML5 Layout"
-    - semantic HTML
+    - Semantic HTML (structure and layout)
   - HTML Chapter 18: "Process & Design"
-    - things to think about when starting a project
+    - Points to consider when starting a project
   - JS Chapter 1: "The ABC of Programming"
-    - basic concepts in programming
-    - algorithms
-    - modeling
-- Unix & Git slides *[45 min]*
-  Introduce core concepts of file management from command line and git/GitHub basics.
+    - Basic concepts
+    - Algorithms
+    - Modeling
 
-Lunch Break
+- Unix &amp; git slides *[45 min]*
+  - File management using yhe command line
+  - git/GitHub basics
+
+- [Lunch Break]
 
 - Command line demo *[5 min]*
 - git local repo interactive demo *[15 min]*
@@ -43,10 +47,12 @@ Lunch Break
   - Open new tab in Terminal; cd to home directory
   - `atom .eslintrc` in home dir.; copy-and-paste contents of .eslintrc, then in Atom's package settings, be sure linter-eslint has the right path for .eslintrc
 
-- Verify Student Toolbelts *[30-60 min]*<br>
+- Verify development environment *[30-60 min]*<br>
   Run quick tests below to verify that all the main pieces of your development environment are working:
-    - Atom: type `atom` in the command line to verify that it opens properly. Command line tools may need to be installed.
-    - Atom packages: Be sure to have `linter`, `minimap`, and `open-in-browser` installed.
-    - Chrome: open the console
-    - Git: enter `which git` on the command line to verify installation
-    - Folder structure: Set up a directory at ~/codefellows/201/ to store your classwork. Go over folder structure in general and compare to GUI.
+    - Atom: Type `atom` in **bash** to verify that it opens properly. Command line tools may need to be installed.
+    - Atom packages: List installedpackages and verify you have `linter`, `minimap`, and `open-in-browser` installed.
+    - Chrome: Open the console
+    - Git: Enter `which git` in bash and verify installation
+    - Folder structure: Create a folder such as ~/CF/201/ to store your labwork. Review folder structure in general and compare to GUI.
+
+- Work on the [Day 01 lab](https://github.com/codefellows/portland-201d3/tree/master/day01_week1_mon/lab)
