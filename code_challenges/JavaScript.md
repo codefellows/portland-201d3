@@ -43,7 +43,6 @@
       function myCountPrinter() {
         // Write your logic here
       }
-
       myCountPrinter(1); // Prints 1<br>
       myCountPrinter(4); // Prints 1, 2, 3, 4<br>
       myCountPrinter(0); // (N/A -- This doesn't print anything)
