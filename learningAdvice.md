@@ -7,7 +7,7 @@ Advice for success in this course and in your future career as a software engine
     - Interactive sandbox demo
 
   - Look up *terminology*. Get good at "code speak".
-    - Demo
+    - Demo<br>
 <code><pre>
           var min_tol = 0.005; // Minimum tolerance
 
