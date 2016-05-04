@@ -2,7 +2,7 @@
 
 In class, we wrote a program that accepted user input and, based on that input, displayed messages back to the user. Your assignment involves an extension of that activity, plus completing the reading assignments above.
 
-Note that your grade for this assignment will include the items listed here AND the in-lab activity that you will be doing on Tuesday morning. Instructions for that activity will be provided to you by 8:00a.
+Note that your grade for this assignment will include the items listed here AND the in-lab activity that you will be doing on Monday afternoon.
 
 # Technical Requirements
 
