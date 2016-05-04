@@ -43,7 +43,7 @@ Advice for success in this course and in your future career as a software engine
       - Symlinks
       - Shell scripts
 
-  - "Pay up-front **once**, enjoy benefits forever."
+  - "Pay up-front **once**, benefit forever."
 
 - Invest in your team collaboration skills
   - Pair/mob code
