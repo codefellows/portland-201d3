@@ -15,7 +15,7 @@
     function isInArray(myArray, myValue) {
       // Write logic here
       // return boolean result here
-    }<br>
+    }
     console.log(isInArray([1, 2, 3], 2));       // Should print true
     console.log(isInArray([1, 2, 3], "frogs")); // Should print false
 
