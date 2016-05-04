@@ -12,12 +12,12 @@
 - JS-4: Write a function that accepts an array as input and a value, and returns boolean 'true' if the value is in the array, and returns boolean 'false' if the value is not in the array. Write the function so that its search logic relies on a `for` loop.
   Example: If the input array is [1, 2, 3] and the input value is 2, your function should return true, but for the same input array if the input value is 99999 (or the string "I like ice cream"), the function should return false.
 
-    function isInArray(myArray, myValue) {
-      // Write logic here
-      // return boolean result here
-    }
-    console.log(isInArray([1, 2, 3], 2));       // Should print true
-    console.log(isInArray([1, 2, 3], "frogs")); // Should print false
+      function isInArray(myArray, myValue) {
+        // Write logic here
+        // return boolean result here
+      }
+      console.log(isInArray([1, 2, 3], 2));       // Should print true
+      console.log(isInArray([1, 2, 3], "frogs")); // Should print false
 
 - JS-5: Same as JS-4, but instead of using a "for" loop, use the .indexOf() method that all JavaScript arrays have.
 
