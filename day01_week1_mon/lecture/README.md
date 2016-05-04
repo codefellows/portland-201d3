@@ -1,4 +1,6 @@
 # Today's Plan
+
+## Lecture
 - Kickoff slides *[45 minutes]*
   - Welcome and intro to Code Fellows.
   - Meet campus manager; learn about campus operations &amp; policies.
@@ -35,17 +37,16 @@ Lunch Break
   - Show features of the REPL in the JS console, and Chrome Developer Tools.
   - Prep for lab
 
-Lab
-- Verify Student Toolbelts *[30-60 min]*
+## Lab
 - Set up JavaScript linter *[30 min]*
   - `apm install linter-eslint`
   - Open new tab in Terminal; cd to home directory
   - `atom .eslintrc` in home dir.; copy-and-paste contents of .eslintrc, then in Atom's package settings, be sure linter-eslint has the right path for .eslintrc
 
-### Verify Student Toolbelts
-By doing a few quick tests and exercises, as detailed below, ensure that students have functionality of all of the core pieces of their development environment:
-- Atom: type `atom` in the command line to verify that it opens properly. Command line tools may need to be installed.
-- Atom packages: Be sure that they have linter, minimap,and  open-in-browser installed.
-- Chrome: how to open the console
-- Git: enter `which git` in the command line to verify installation
-- Directory structure: Have students set up a directory at ~/codefellows/201/ in which they will store their classwork. Go over directory structure in general; compare to GUI.
+- Verify Student Toolbelts *[30-60 min]*<br>
+  Run quick tests belowto verify students have functionality of all of the core pieces of your development environment:
+    - Atom: type `atom` in the command line to verify that it opens properly. Command line tools may need to be installed.
+    - Atom packages: Be sure to have linter, minimap,and  open-in-browser installed.
+    - Chrome: how to open the console
+    - Git: enter `which git` in the command line to verify installation
+    - Directory structure: Have students set up a directory at ~/codefellows/201/ in which they will store their classwork. Go over directory structure in general; compare to GUI.
