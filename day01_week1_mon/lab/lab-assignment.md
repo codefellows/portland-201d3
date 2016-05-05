@@ -1,5 +1,5 @@
 ## Code 201
-## Day 02 Lab Assignment
+## Day 01 Lab Assignment
 
 In lab today you will get a lot of practice working with the Terminal, Atom, Git, and GitHub. The goal is for you to have hands-on practice and to see how everything fits together.
 
