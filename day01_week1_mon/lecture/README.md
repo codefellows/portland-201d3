@@ -17,6 +17,11 @@
     - Other tags: `<h1>`, `<h2>`, etc., `<p>`, `<div>`, `<ul>`, `<li>`, ...
     - Attributes
     - Preview of external links in `<script>`, `<link>`, `<img>`, `<video>`, `<audio>`, `<iframe>` ...
+  - JS Chapter 1: "The ABC of Programming"
+    - Basic concepts
+    - Algorithms
+    - Modeling
+
   - HTML Chapter 8: "Extra Markup"
     - HTML comments
     - `<meta>` tags
@@ -24,10 +29,7 @@
     - Semantic HTML (structure and layout)
   - HTML Chapter 18: "Process & Design"
     - Points to consider when starting a project
-  - JS Chapter 1: "The ABC of Programming"
-    - Basic concepts
-    - Algorithms
-    - Modeling
+
 
 - Unix &amp; git slides *[45 min]*
   - File management using yhe command line
