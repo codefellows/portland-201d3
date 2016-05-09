@@ -23,7 +23,7 @@
     - Modeling
 
 - Unix &amp; git slides *[45 min]*
-  - File management using yhe command line
+  - File management using the command line
   - git/GitHub basics
 
 - [Lunch Break]
