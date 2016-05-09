@@ -1,5 +1,4 @@
-// 201
-// 1-mon-lecture/code-demo js
+// Simple example of an interactive web page
 
 var userName = prompt('What is your name?');
 console.log('Meow Meow Meow ' + userName + '!!!!');

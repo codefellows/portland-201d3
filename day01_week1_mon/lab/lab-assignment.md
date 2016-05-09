@@ -1,5 +1,5 @@
 ## Code 201
-## Day 02 Lab Assignment
+## Day 01 Lab Assignment
 
 In lab today you will get a lot of practice working with the Terminal, Atom, Git, and GitHub. The goal is for you to have hands-on practice and to see how everything fits together.
 
@@ -22,13 +22,13 @@ We'll also work on highlighting some common terminology. Those elements will be 
 
 * In your terminal, enter the command `git clone [your repo name]` to clone your repo onto your laptop. Do `ls` in your terminal to see a new folder that has the same name as your new repo. Create a folder inside that folder for today's lab -- let "today's folder" denote this folder.
 
-* Seek verification from a TA/instructor or from a classmate. Make sure you're set up correctly before proceeding.
+* Seek verification from a classmate or the teaching staff. Be sure you're set up correctly before proceeding.
 
 * Copy index.html and app.js files from the 'demo0' folder of the class repo into today's folder.
 
 * Create a README.md in today's folder.
 
-* We'll do the rest of this lab in class, starting at 9:30. If you have any time before 9:30 after finishing this material, you can read the following two articles:
+* Copy the two files [HERE](https://github.com/codefellows/portland-201d3/tree/master/day01_week1_mon/lecture/demo_QandA_simple) into your git workspace and customize the app by changing every string in app.js, and modify the DOM structure coded in index.html. If you have any time left after finishing this material, you can read the following two articles:
 
 [GitHub For Beginners: Don't Get Scared, Get Started](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1)
 

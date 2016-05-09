@@ -7,8 +7,8 @@ Advice for success in this course and in your future career as a software engine
     - Interactive sandbox demo
 
   - Look up *terminology*. Get good at "code speak".
-    - Demo
-
+    - Demo<br>
+<code><pre>
           var min_tol = 0.005; // Minimum tolerance
 
           function getDiag(a, b, c) { // Get 3-D diagonal length
@@ -19,7 +19,6 @@ Advice for success in this course and in your future career as a software engine
             if (diag < min_tol) {
                console.log('    **Warning** diag=' + diag + ', whereas the min. tolerance is only ' + min_tol);
             }
-
             console.log('  diag = ' + diag);
             console.log('-----------------');
 
@@ -28,7 +27,7 @@ Advice for success in this course and in your future career as a software engine
 
           var d1 = getDiag(3, 4, 5);
           var d2 = getDiag(0.002, 0.001, 0.003);
-
+</code></pre>
   - Find manual pages, and again, **sandbox**.
 
   - Find example code, **analyze** the code, then sandbox.
@@ -44,12 +43,12 @@ Advice for success in this course and in your future career as a software engine
       - Symlinks
       - Shell scripts
 
-  - "Pay up-front **once**, enjoy benefits forever."
+  - "Pay up-front **once**, benefit forever."
 
 - Invest in your team collaboration skills
   - Pair/mob code
   - Team projects
   - Ask peers and staff for help.
-  - Offer to collaborate; help debug
-  - Write open source
-  - Do hack-a-thons
+  - Offer to collaborate; help debug.
+  - Open source
+  - Hack-a-thons
