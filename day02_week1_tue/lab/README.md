@@ -64,9 +64,9 @@ User stories typically take the form of, "As X, I want Y, so that Z" but do not 
 
 - git pull                Pull GitHub commits to your laptop
 
-## In Atom & Chrome: edit, test, debug.
-
-## In git: add, commit, push (a-c-p).
+### Development Cycle
+- In Atom and Chrome: edit, test, debug
+- In git: add, commit, push (a-c-p)
 
 ## Development Tools Setup
 - Setup check-list. Please get help if you don't have these set up:
