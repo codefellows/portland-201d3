@@ -6,9 +6,11 @@ console.log('The user said there name is ' + userName);
 
 alert('Hey there ' + userName + ', I\'m going to ask you some questions about me. Please click "ok", then answer Y or N to the next question.');
 
+var numTries = 0;
 var keepAsking = true;
 
 while (keepAsking) {
+  numTries = numTries + 1;
   var userResponse = prompt('Was, I born on the moon?');
   console.log('userResponse: ' + userResponse);
 
@@ -23,3 +25,5 @@ while (keepAsking) {
   }
 
 } // while
+
+console.log('We had ' + numTries + ' repeats.');
