@@ -30,18 +30,18 @@
   - p.75     Operators (Arithmetic, p.76) (String, p.78)
 
 ### Code demo *[45 min]*
-  - Lab assignment, demo & demo code review
-  . Validate user input
+- Lab assignment, demo & demo code review
+  - Validate user input
     - Lower/upper case
     - Numeric input values
-  . Add HTML content
+  - Add HTML content
     - Ordered list
     - Unordered list
-  . Javascript
+  - Javascript
     - Arrays
     - Track stats
-  . CSS styling
-  . Add navigation, images
+  - CSS styling
+  - Add navigation, images
   
 - Show features of the REPL in the JS console, and Chrome Developer Tools.
   - Git branch
