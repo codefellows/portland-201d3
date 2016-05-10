@@ -2,6 +2,10 @@
 
 ## Lecture
 
+### Topics Review
+- Sandboxing
+- Look up (MDN)
+
 ### Student Code Review [20 min]
 
 ### Reading Review ("Socratic" method) [45 min]
@@ -47,13 +51,5 @@
 - Demo: Developing on git branches
 
 ## Lab
-- Setup check-list. Please get help if you don't have these set up:
-  - [ ] Add "file safety" aliases to shell startup script
-  - [ ] Set up global git config (user email/pass)
-  - [ ] Set up node/npm and live-server
-  - [ ] Set up JavaScript linter
-    - `apm install linter-eslint`
-    - Open new tab in Terminal; cd to home directory
-    - `atom .eslintrc` in home dir.; copy-and-paste contents of .eslintrc, then in Atom's package settings, be sure linter-eslint has the right path for .eslintrc
-
-- Labwork: Coding time!
+- Set up development tools (see README.md in the "lab/" folder).
+- Coding time!

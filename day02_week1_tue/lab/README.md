@@ -52,7 +52,7 @@ User stories typically take the form of, "As X, I want Y, so that Z" but do not 
 
 - Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
-### Git Commands:
+### Git Commands
 
 - git status              Provides a detailed description of current state in working directory
 
@@ -67,3 +67,13 @@ User stories typically take the form of, "As X, I want Y, so that Z" but do not 
 ## In Atom & Chrome: edit, test, debug.
 
 ## In git: add, commit, push (a-c-p).
+
+## Development Tools Setup
+- Setup check-list. Please get help if you don't have these set up:
+  - [ ] Add "file safety" aliases to shell startup script
+  - [ ] Set up global git config (user email/pass)
+  - [ ] Set up node/npm and live-server
+  - [ ] Set up JavaScript linter
+    - `apm install linter-eslint`
+    - Open new tab in Terminal; cd to home directory
+    - `atom .eslintrc` in home dir.; copy-and-paste contents of .eslintrc, then in Atom's package settings, be sure linter-eslint has the right path for .eslintrc
