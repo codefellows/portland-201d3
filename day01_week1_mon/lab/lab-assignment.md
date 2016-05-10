@@ -28,7 +28,7 @@ We'll also work on highlighting some common terminology. Those elements will be 
 
 * Create a README.md in today's folder.
 
-* Copy the two files [HERE](https://github.com/codefellows/portland-201d3/tree/master/day01_week1_mon/lecture/demo_QandA_simple) into your git workspace and customize the app by changing every string in app.js, and modify the DOM structure coded in index.html. If you have any time left after finishing this material, you can read the following two articles:
+* Copy the two files [HERE](https://github.com/codefellows/portland-201d3/tree/master/day01_week1_mon/lecture/demo_QandA_calc) into your git workspace and customize the app by changing every string in app.js, and modify the DOM structure coded in index.html. If you have any time left after finishing this material, you can read the following two articles:
 
 [GitHub For Beginners: Don't Get Scared, Get Started](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1)
 
