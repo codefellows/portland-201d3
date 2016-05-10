@@ -9,7 +9,7 @@
 
 - [10 minute break]
 
-- Critically Important Practices - slides
+- Learning advice (learningAdvice.md)
 
 - Prework interactive review, using ideas borrowed from (or inspired by) the **Socratic Method** *[60 min]*
   - HTML Chapter 1: "Structure"
@@ -17,10 +17,6 @@
     - Other tags: `<h1>`, `<h2>`, etc., `<p>`, `<div>`, `<ul>`, `<li>`, ...
     - Attributes
     - Preview of external links in `<script>`, `<link>`, `<img>`, `<video>`, `<audio>`, `<iframe>` ...
-  - JS Chapter 1: "The ABC of Programming"
-    - Basic concepts
-    - Algorithms
-    - Modeling
 
 - Unix &amp; git slides *[45 min]*
   - File management using the command line
@@ -31,15 +27,9 @@
 - Command line demo *[5 min]*
 - git local repo interactive demo *[15 min]*
 - Code demo *[40 min]*
-  - Show features of the REPL in the JS console, and Chrome Developer Tools.
   - Prep for lab
 
 ## Lab
-- Set up JavaScript linter *[30 min]*
-  - `apm install linter-eslint`
-  - Open new tab in Terminal; cd to home directory
-  - `atom .eslintrc` in home dir.; copy-and-paste contents of .eslintrc, then in Atom's package settings, be sure linter-eslint has the right path for .eslintrc
-
 - Verify development environment *[30-60 min]*<br>
   Run quick tests below to verify that all the main pieces of your development environment are working:
     - Atom: Type `atom` in **bash** to verify that it opens properly. Command line tools may need to be installed.
