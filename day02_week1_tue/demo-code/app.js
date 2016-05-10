@@ -1,5 +1,5 @@
-// 201
-// 3-tue-lecture code demo
+// Code 201 Day 02
+// Demo code for lecture & lab
 
 var userName = prompt('What is your name?');
 console.log('The user said there name is ' + userName);
