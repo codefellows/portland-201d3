@@ -42,9 +42,9 @@
     - Track stats
   - CSS styling
   - Add navigation, images
-  
+
 - Show features of the REPL in the JS console, and Chrome Developer Tools.
-  - Git branch
+- Demo: Developing on git branches
 
 ## Lab
 - Setup check-list. Please get help if you don't have these set up:
