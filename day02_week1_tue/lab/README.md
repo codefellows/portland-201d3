@@ -68,7 +68,7 @@ User stories typically take the form of, "As X, I want Y, so that Z" but do not 
 - In Atom and Chrome: edit, test, debug
 - In git: add, commit, push (a-c-p)
 
-## Development Tools Setup
+# Development Tools Setup
 - Setup check-list. Please get help if you don't have these set up:
   - [ ] Add "file safety" aliases to shell startup script
   - [ ] Set up global git config (user email/pass)
