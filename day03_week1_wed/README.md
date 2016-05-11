@@ -18,6 +18,7 @@
   - p.74     Expressions
   - p.75     Operators (Arithmetic, p.76) (String, p.78)
 - JS Ch. 4: Loops
+- HTML/CSS Ch.10: “Introducing CSS”
 
 ### Code demo *[45 min]*
 - Lab assignment: live demo, demo code review
