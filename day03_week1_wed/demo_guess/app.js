@@ -1,38 +1,31 @@
-// 201
-// 5-wed-lecture code demo
+// 201 Day 3 code demo
 
-// code from 3-wed-lecture code demo
 var userName = prompt('What is your name?');
-console.log('The user said there name is ' + userName);
+console.log('The user said her/his name is ' + userName);
 
-alert('Hey there, ' + userName + ' I\'m going to ask you some questions about me. Please answer Y or N.');
+alert('Hi, ' + userName + ' I\'m going to ask you some questions about me. Please answer Y or N.');
 var userResponse = prompt('Was, I born on the moon?');
 console.log('userResponse: ' + userResponse);
 
 if (userResponse.toLowerCase() === 'n' || userResponse.toUpperCase() === 'NO') {
-  alert('Nope, I was actualy born on the moon. I\'ma moonian computer language.');
+  alert('Nope, I was actualy born on the moon. I\'m a moonian computer language.');
 } else if (userResponse === 'Y'){
   alert('Nice, I was born on the moon');
 } else {
   alert('Ooops!, you should have given a Y or N, so you loose this round.');
 }
 
-// new code
+// New features
 console.log('before the while loop favoriteNum is ' + favoriteNum);
-while(favoriteNum !== 57){
+while (favoriteNum !== 57){
   var favoriteNum = parseInt(prompt('what is my favorite number.'));
 
   if (favoriteNum > 57){
-    alert('Your guess: ' + favoriteNum + ' was too high!'); 
+    alert('Your guess, ' + favoriteNum + ', is too high!'); 
   } else if (favoriteNum < 57){
-    alert('Your guess: ' + favoriteNum + ' was too low!'); 
-  } else if (typeof(favoriteNum) === 'number'){
-    // this will allways pass because parseInt will allways return a number
-    // NaN is still considered a number
-    alert('You have to enter a number, dummy!');
+    alert('Your guess, ' + favoriteNum + ', is too low!'); 
   } else {
-    // this should never run because the three previous conditions are exhostive 
-    alert('WTF, this should never happen');
+    alert('Nice guess!');
   }
 }
 
@@ -43,11 +36,11 @@ var correctGuess=false;
 for (var i=0; i< pets.length; i++){
   console.log('pets[' + i + ']: ' + pets[i]);
   if (petRespnse === pets[i]){
-    alert('Wow, are you psycic? ' + petRespnse + ', is totally one of my pets!'); 
+    alert('Wow, are you psychic? ' + petRespnse + ', is totally one of my pets!'); 
     correctGuess = true;
   }
 }
 
-if (!correctGuess){
-  alert('Nope, you failed looser!');
+if (! correctGuess){
+  alert('No, you guessed wrong, but can try again by reloading this page.');
 }
