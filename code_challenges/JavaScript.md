@@ -4,10 +4,43 @@
 
 - JS-1. Write a function that accepts two arrays (of the same length and whose elements are Numbers) as parameters, and returns an array that is the sum of the two input arrays, element-wise.
 
+   Test case, assuming the function is named `addArrays`:
+```javascript
+  var x = [ 1,  2,  3];
+  var y = [10, 10, -4];
+  var r = addArrays(x, y); // r is [11, 12, -1]
+```
+
 - JS-2. Extend the function to handle boolean input arrays as well, such that if the input arrays' elements are boolean, return an array that contains the logical OR of the two input arrays, element-wise. If the input arrays are Numbers, still compute the sum, element-wise.
 
-- JS-3. Extend the function to handle strings such that if the input arrays' elements are Strings,  return an array that is the concatenation of the input arrays, element-wise.<br>
+  Test case, assuming the function is named `addArrays`:
+```javascript
+  var x = [ 1,  2,  3];
+  var y = [10, 10, -4];
+  var r = addArrays(x, y); // r is [11, 12, -1]
+
+  var b1 = [true, true,  false, false];
+  var b2 = [true, false, true,  false];
+  var r = addArrays(b1, b2); // r is [true, true, true, false]
+```
+
+- JS-3. Extend the function to handle strings such that if the input arrays' elements are Strings, return an array that is the concatenation of the input arrays, element-wise.<br>
   See if you can do this with only a text editor and a browser console to test/debug your code. Get to the point where you don't need to look up info on the internet, and don't need to look at code samples to figure out the syntax.
+
+  Test case, assuming the function is named `addArrays`:
+```javascript
+  var x = [ 1,  2,  3];
+  var y = [10, 10, -4];
+  var r = addArrays(x, y); // r is [11, 12, -1]
+
+  var b1 = [true, true,  false, false];
+  var b2 = [true, false, true,  false];
+  var r = addArrays(b1, b2); // r is [true, true, true, false]
+
+  var s1 = ['big ', 'cute '];
+  var s2 = ['dog',  'cat'];
+  var r = addArrays(s1, s2); // r is ['big dog', 'cute cat']
+```
 
 - JS-4: Write a function that accepts an array as input and a value, and returns boolean 'true' if the value is in the array, and returns boolean 'false' if the value is not in the array. Write the function so that its search logic relies on a `for` loop.
   Example: If the input array is [1, 2, 3] and the input value is 2, your function should return true, but for the same input array if the input value is 99999 (or the string "I like ice cream"), the function should return false.
