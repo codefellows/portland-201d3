@@ -38,6 +38,7 @@ Quiz 1 published. Can take/re-take until 11:59 pm Sun.
 - p.97 	IIFEs
 - p.98 	Variable scope
 - JS hoisting -- preview
+
 ---
 ## Development Environment
 - Sandboxing
