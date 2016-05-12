@@ -1,0 +1,23 @@
+nav {
+  position: fixed;
+  font-family: Helvetica, sans-serif;
+  top: 0;
+  left: 0;
+}
+
+li {
+  margin-left: -10px;
+  margin-right: -20px;
+}
+
+h1, section {
+  margin-left: 140px;
+}
+
+/* Attribute demo
+[sushi] {
+  display: inline-block;
+  color: black;
+  background: salmon;
+}
+*/
