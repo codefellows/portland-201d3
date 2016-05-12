@@ -1,19 +1,12 @@
 # Day 04 Plan
-
 ---
-
 ## Announcement
 
 Quiz 1 published. Can take/re-take until 11:59 pm Sun.
 
 ---
-
 ## Code Review *[45 min]*
-- Readings *[45 min]*
-- Code demo *[60 min]*
-
 ---
-
 ## Reading
 
 **HTML Chapter 4: "Links"**
@@ -45,9 +38,7 @@ Quiz 1 published. Can take/re-take until 11:59 pm Sun.
 - p.97 	IIFEs
 - p.98 	Variable scope
 - JS hoisting -- preview
-
 ---
-
 ## Development Environment
 - Sandboxing
 - Read-evaluate-print loop (REPL) in the JS console and in Node
