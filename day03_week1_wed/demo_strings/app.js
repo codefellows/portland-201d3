@@ -8,10 +8,10 @@
 // startsWith
 // endsWith
 // substring
-// split 
+// split
 // slice
 
-var helloString = "    hello, world with a NUMBER 12346!   "
+var helloString = '    hello, world with a NUMBER 12346!   ';
 console.log('helloString: "' + helloString + '"');
 console.log('\n');
 
@@ -44,7 +44,7 @@ console.log('\n');
 
 // indexOf
 console.log('indexOf returns the first index of a substring after a start index, the default start index is 0');
-console.log('helloString.indexOf("NUMBER"): ' + helloString.indexOf("NUMBER"));
+console.log('helloString.indexOf("NUMBER"): ' + helloString.indexOf('NUMBER'));
 console.log('helloString.indexOf("l")     : ' + helloString.indexOf('l'));
 console.log('helloString.indexOf("l", 7)     : ' + helloString.indexOf('l', 7));
 console.log('helloString.indexOf("l", 8)     : ' + helloString.indexOf('l', 8));
@@ -52,7 +52,7 @@ console.log('\n');
 
 // lastIndexOf
 console.log('lastIndexOf returns the last index of a substring after a end index, the default start index is 0');
-console.log('helloString.lastIndexOf("NUMBER"): ' + helloString.lastIndexOf("NUMBER"));
+console.log('helloString.lastIndexOf("NUMBER"): ' + helloString.lastIndexOf('NUMBER'));
 console.log('helloString.lastIndexOf("l")     : ' + helloString.lastIndexOf('l'));
 console.log('helloString.lastIndexOf("l", 5)     : ' + helloString.lastIndexOf('l', 5));
 console.log('helloString.lastIndexOf("l", 8)     : ' + helloString.lastIndexOf('l', 8));
@@ -60,18 +60,18 @@ console.log('\n');
 
 // startsWith
 console.log('startsWith returns true or false if the speficied argment has the same characters as the beginning of a string');
-helloString = "hello, world";
+helloString = 'hello, world';
 console.log('helloString: "' + helloString + '"');
-console.log('helloString.startsWith("hello"): ' + helloString.startsWith("hello"));
-console.log('helloString.startsWith("unicorn"): ' + helloString.startsWith("unicorn"));
+console.log('helloString.startsWith("hello"): ' + helloString.startsWith('hello'));
+console.log('helloString.startsWith("unicorn"): ' + helloString.startsWith('unicorn'));
 console.log('\n');
 
 // endsWith
 console.log('endsWith returns true or false if the speficied argment has the same characters as the end of a string');
-helloString = "hello, world";
+helloString = 'hello, world';
 console.log('helloString: "' + helloString + '"');
-console.log('worldString.endsWith("world"): ' + helloString.endsWith("world"));
-console.log('helloString.endsWith("unicorn"): ' + helloString.endsWith("unicorn"));
+console.log('worldString.endsWith("world"): ' + helloString.endsWith('world'));
+console.log('helloString.endsWith("unicorn"): ' + helloString.endsWith('unicorn'));
 console.log('\n');
 
 // substring
@@ -79,5 +79,5 @@ console.log('substr returns a new string between a start and an end index, the d
 console.log('helloString: "' + helloString + '"');
 console.log('helloString.substr(3)' + helloString.substr(3));
 
-// split 
+// split
 // slice
