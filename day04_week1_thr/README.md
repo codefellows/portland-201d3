@@ -3,6 +3,7 @@
 ## Announcement
 
 Quiz 1 published. Can take/re-take until 11:59 pm Sun.
+
 ---
 ## Code Review *[45 min]*
 - Readings *[45 min]*
