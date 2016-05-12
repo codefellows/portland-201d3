@@ -15,6 +15,9 @@ Quiz 1 published. Can take/re-take until 11:59 pm Sun.
 - p.80: Link to other pages on the same site
 - p.81-82: Directory structure
 - p.83: Relative URLs
+  - Demos:
+    - Absolute path in file system, and w.r.t. "web root" (e.g., live-server)
+    - Relative path in file system, and w.r.t. "web root"
 - p.85: Email links
 - p.86: Open links in new tab/window
 
