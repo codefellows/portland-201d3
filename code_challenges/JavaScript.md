@@ -86,12 +86,12 @@
       myCountPrinter(4); // Prints 1, 2, 3, 4<br>
       myCountPrinter(0); // (N/A -- This doesn't print anything)
 
-- JS-11 (advanced): Write a function that has one parameter and returns an array that contians all primes (prime numbers) less than N.
+- JS-11 (advanced): Write a function that has one parameter and returns an array that contains all primes (prime numbers) less than N.
 
 - JS-12 (advanced): Extend your code from JS-11 to compute the percentage of numbers below N that are prime.  E.g., When N = 13, the prime array is [2, 3, 5, 7, 11], which has 5 primes; the percentage is 5/12 = 41.67%.
   Plot this percentage as a function N and describe the shape of the plot.
 
-- JS-13 (advanced): Write a function that has one parameter and finds (by computing) and returns the one-millonth smallest prime number.
+- JS-13 (advanced): Write a function that finds (by computing) and returns the one-millonth smallest prime number.
 
 - JS-14 (advanced):
 Jenny goes to the market with $5 to buy fruit for a gift basket. She's plans to spend exactly $5.00.  The market sells fruits per piece at non-round prices, so it's not easy to make the total bill exactly $5. But Jenny is prepared and uses an app that she wrote to find her options; she enters unit prices of the fruit she sees, then runs the app, and voilà! All possible combinations of fruit that total $5 appear on her screen.<br><br>
