@@ -25,7 +25,7 @@ Note: Before starting these steps, make sure that both of your repositories are 
 
 - Inside of the driver's main work directory on their laptop, make a directory with your partner’s name and then move (cd) into it. From there, enter the command 'git clone the-https-link-you-copied'. That will create a local version of the forked repo on the driver's laptop.
 
-- 'cd' into that directory and enter 'atom .' in the terminal to open all of the files in Sublime Text.
+- 'cd' into that directory and enter 'atom .' in the terminal to open all of the files in Atom.
 
 - Start working on the code!
 
@@ -35,24 +35,26 @@ Note: Before starting these steps, make sure that both of your repositories are 
 
 - DON'T FORGET TO DO YOUR WORK ON BRANCHES!
 
-- There are some code examples here in our class repo: https://github.com/codefellows/seattle-201d6/tree/master/week-1/class-05
+- There is some [example code](https://github.com/codefellows/portland-201d3/tree/master/day04_week1_thr/demo-code/guessGame) in our class repo.
 
-- Move the guessing game into a separate HTML document: Let's separate the guessing game from the index page by putting them into interlinked HTML file. Make the basic HTML shell of a guessing-game.html page (empty <body> and <head> inside of a <html> tag), and put in its body a link back to the profile page: <a href="index.html">Home (or whatever text you want)</a>. Add a script element at the bottom that includes your guessing game JS file. a-c-p
+- Move the guessing game into a separate HTML document: Let's separate the guessing game from the index page by putting them into interlinked HTML file. Make the basic HTML shell of a guessing-game.html page (empty &lt;body&gt; and &lt;head&gt; inside of a &lt;html&gt; tag), and put in its body a link back to the profile page: &lt;a href="index.html"&gt; Home (or whatever text you want)&lt;/a&gt;. Add a script element at the bottom that includes your guessing game JS file. a-c-p
 
-- Move logic into functions: Note: depending on the progress made toward stretch goals this week, this may or may not be easily workable. As an instructor or TA for guidance if you are not sure. Yesterday, we learned about functions, and today we'll move the logic for the individual questions into separate functions, and call those functions to initiate the game. In its most basic sense, this is pretty straightforward: 'wrap' the logic and variables for a given question with function someFuncNameYouChoose() { at the beginning and a closing curly brace } at the end. To make the function execute, just call it afterwards: someFuncNameYouChoose(); Take a look at the sample in the repo. After completing this step the game should behave exactly as it did before. a-c-p
+- Move logic into functions. Note: depending on the progress made toward stretch goals this week, this may or may not be a small amount of work. As teaching staff for guidance if you need help. Yesterday, we learned about functions; today we'll move the logic for the individual questions into separate functions, and call those functions to initiate the game.
+
+  In its most basic sense, this is pretty straightforward: 'wrap' the logic and variables for a given question within a function. To make the function execute, just call the function. After completing this step, the game should behave exactly as it did before. Remember to a-c-p frequently.
 
 -Your questions and answers should be moved to respective arrays to keep record of them. For example, you could keep an array of successful answers in order to count the game's score.
 
-- Move the alerts into the DOM: Using the code from class repo as a model, move the alert feedback to the came player into <p> tags that display in the browser window of your new guessing-game.html. a-c-p
+- **Move the alerts into the DOM** (no more alert() calls -- yay!): Using the code from the class repo as a model, move the alert feedback into &lt;p&gt; tags that display in the browser window of your new guessing-game.html. Do a-c-p.
 
 - Update the README file: In the README file, add in the names of the driver and navigator and indicate that the code was worked on together. This is basic record-keeping so that you can keep up with how the code has been edited in a user-friendly format. a-c-p
 
 
 ### Push to GitHub; Make a Pull Request
 
-- Once everything is finished, and the driver has done the last edits and pushed them to GitHub, it's time to send the edited code to the owner (who has been in the navigator role the whole time, of course). We do this with a GitHub feature called a pull request.
+- Once everything is finished, and the driver has done the last edits and pushed them to GitHub, it's time to send the edited code to the owner. You'll do this with a GitHub pull request.
 
-- From the driver's repo that is a fork of the navigator's repo, hit the green button that says 'Create pull request'
+- From the driver's repo that is a fork of the navigator's repo, click the green button that says 'Create pull request'.
 
 - Follow the remaining steps as described onscreen and as shown here: https://help.github.com/articles/using-pull-requests. These instructions are deliberately vague, to give you practice in reading through instructions and getting guidance from documentation.
 
