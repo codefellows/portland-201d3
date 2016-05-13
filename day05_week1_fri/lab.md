@@ -46,8 +46,6 @@ Write a function called **multiplyArray()** that takes in an array of numbers as
 
 "The numbers 2,3,4 have a product of 20."
 
-**a-c-p**, yadda yadda...
-
 ---
 #### Render
 We're now going to put all of this output into the browser window. First, do these things to get the page structure ready:
