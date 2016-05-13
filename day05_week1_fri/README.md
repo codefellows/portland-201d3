@@ -2,27 +2,28 @@
 
 ## Announcements
 
+- Scheduled 1:1s for questions, feedback, and two-way "How am I doing?".
 - Quiz due 11:59p Sun
 - Link to Week 1 survey to be emailed to students today
 - Lab today is also a pair-programming assignment.
 
 ---
-## Code Review *[30 min]*
+## Code Review *[45 min]*
 
 ---
-## Review reading topics *[60 min]*
+## Review reading topics *[45 min]*
 
 **HTML Ch.5: Images**
 
 - p.97: Choosing and storing images
   - External URLs
-- p.99: \<img\> tag with 'height' and 'width' attributes
+- p.99: &lt;img&gt; tag with 'height' and 'width' attributes
 - p.101: Image alignment in text
-  . Horizontal (e.g., align='left|right')
-  . Vertical (e.g., align='top|middle|bottom')
-- p.107: 3 rules for creating images
+  . Horizontal (e.g., align="left|right")
+  . Vertical (e.g., align="top|middle|bottom")
+- p.107: Three rules for creating images
 - p.109: Image formats (JPG, GIF, PNG)
-- Other topics: dimensions, cropping, resolution, vector, animation, transparency, inspecting on web
+- Other topics: Dimensions, cropping, resolution, vector, animation, transparency
 
 **HTML Ch.12: Text (CSS)**
 
@@ -35,4 +36,4 @@
 
 ---
 
-## Code demo *[90 min]*
+## Code Demo, Lab Review, &amp; Dev Tools *[45 min]*
