@@ -93,3 +93,40 @@ function changeMake(pMake) {
 console.log('global, before call: make=' + make);
 changeMake(make);
 console.log('global, after call: make=' + make);
+
+function getMultiple(x, y, z) {
+  var a = 1;
+  var b = 2;
+  console.log('x = ' + x);
+  console.log('y = ' + y);
+  var tObj = { first: 'a', second: b };
+
+  return tObj;
+}
+
+var zz = getMultiple('Hey, I\'m defined');
+console.log('zz = ', zz);
+
+//myButton.addEventListener('click', quizUser, false);
+
+quizUser();
+
+var quizUser = function() {
+  console.log('You\'ve been quizzed!');
+};
+
+function quizUser() {
+  console.log('You\'ve been quizzed!');
+}
+
+//var width = 10000;
+var width = 5;
+var height = 6;
+
+var a = (function(w, h) {
+  var area = w * h;
+  console.log('Inside IIFE: area = ' + area);
+  return area;
+}(width, height));
+
+console.log('Global: a = ' + a);
