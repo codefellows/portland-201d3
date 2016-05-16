@@ -6,7 +6,7 @@ In lecture we learned how to model an entity in JavaScript using objects. Now it
 
 * Before coding, create a new folder (with a README.md) called "pizza" and develop this week's app in that folder. Each day this week, you'll work in separate branches, and at the end of each day's lab, create a GitHub PR from your branch into master, and accept the request so that each day's work is merged into master. This way your app will continue to improve throughout this week..
 
-  For today's lab, create and switch to a new branch. Branch names can be whatever you want, but we suggest that you use a consistent naming scheme such as 'dayX-[feature]' for the branch name, e.g., day05-dataModel, day06-objects, etc.
+* For today's lab, create and switch to a new branch. Branch names can be whatever you want, but we suggest that you use a consistent naming scheme such as 'dayX-[feature]' for the branch name, e.g., day05-dataModel, day06-objects, etc.
 
 ## Problem Domain
 
@@ -65,17 +65,17 @@ Hillsboro
 
 ### Technical Requirements
 - New folder in repo with scaffold and README; repo cloned to local machine
-- All work on a non-master branch, with regular commit history and meaningful commit messages
+- All work is done on a non-master branch, with a regular commit history and meaningful commit messages.
 - Good use of *object literals*, one object per store model, with properties and methods correctly initialized
-- Main page meets requirements of problem domain
-- Stores correctly rendering as lists to the data page
+- Main page meets requirements of problem domain.
+- Stores correctly renders using lists in the &quot;data&quot; page.
 
 ### Extra Credit
 
 #### User Story (stretch)
  - As a developer, I want to present the store data in a table format on the webpage, so each store's data is easier to represent and understand.
 
-#### Test Driven Development
+#### Test-driven Development
 For 2 points extra credit, write tests that verify at least three functions in your web app, and write at least two tests for each function -- one test that passes when the function works as expected, and one test that passes when your function avoids incorrect behavior. For example, suppose you have a function that concatentates two strings and returns the result as one string. One test can send 'hello' and ' world' to it, and expects 'hello world' to be returned. Another test can verify that the return value is not an array of strings.
 
 If you submit your work without tests, you may add tests to your repo and re-submit this assignment up to one week later for a chance to earn the extra credit points.
