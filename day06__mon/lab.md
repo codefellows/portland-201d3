@@ -28,7 +28,7 @@ Display delivery info at various store locations. Jenny's market analysis has es
 | 2pm-5pm  | 2  | 15  | 1 | 4 |
 | 5pm-8pm  | 15  | 35  | 3 | 8 |
 | 8pm-11pm  | 12  | 31  | 5 | 12 |
-| 11pm-2am  | 5  | 20  | 6 | 11 |   
+| 11pm-2am  | 5  | 20  | 5 | 11 |   
 
 Create a prototype of the webpage with randomly generated data, constrainied within the boundary values in the table above (e.g., with a min, max of 0 and 4, respectively, the random number can be 0, 1, 2, 3, or 4).
 
