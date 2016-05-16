@@ -65,13 +65,12 @@
 
   - Apply what we've learned in III to the labwork.
 
-## Tools
-[15 min]
-- Review: `open` and &quot;Drag from Finder&quot;
-- Bash command editing/nav
+- Tools [15 min]
+  - Review: `open` and &quot;Drag from Finder&quot;
+  - Bash command editing/nav
 
-- Execution flow/trace
-- Review: Chrome Dev Tools: breakpoints, step over/into/out of
+  - Execution flow/trace
+  - Review: Chrome Dev Tools: breakpoints, step over/into/out of
 
 ## Lab
 - Start creating!
