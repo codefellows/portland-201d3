@@ -53,7 +53,7 @@
 
 [BREAK]
 
-- Mob coding III [30 min]
+- Mob coding III [45 min]
   - Create 2 objects using object literals.
   - Add method to each object; method prints hard-coded number.
   - Move objects into array.
@@ -65,7 +65,8 @@
 
   - Apply what we've learned in III to the labwork.
 
-## Tools [20 min]
+## Tools
+[15 min]
 - Review: `open` and &quot;Drag from Finder&quot;
 - Bash command editing/nav
 
