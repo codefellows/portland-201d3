@@ -74,7 +74,7 @@ Hillsboro
 If you decide that coding this app using object literals for each store would be too tedious and too much code bloat, then go ahead and use a constructor function to create each shop's object, but if you choose this option, you should create two "pizza menu item" objects using object literals, and render their contents to the DOM in index.html. An example of one such object follows:
 
 ```javascript
-var pizzaA = {
+var pizzaOne = {
   name: 'The Big Vegan Special Pie',
   toppings: 'vegan cheese, protein powder, popcorn, sunflower seeds, rice milk',
   price: '$ 27.00'
