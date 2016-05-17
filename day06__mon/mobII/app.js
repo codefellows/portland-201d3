@@ -60,10 +60,10 @@ function Treat(name, color) {
 }
 
 var cannoli = new Treat('cannoli', 'beige');
-// cannoli.setTasteRating(4.5);
-// console.log('taste rating = ' + cannoli.tasteRating);
-//
-// Treat('apple', 'green');
-//
-// var name = 'apple';
-// var color = 'green';
+cannoli.setTasteRating(4.5);
+console.log('taste rating = ' + cannoli.tasteRating);
+
+// "Bare" call to constructor:
+// - Properties become global vars
+// - Methods become "normal" functions
+Treat('apple', 'green');
