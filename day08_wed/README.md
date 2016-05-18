@@ -64,7 +64,8 @@
   - HTML
     - 2 text inputs
     - 2 tables (each table has 2 rows)
-    - 1 button for "form"
-    - JS: Event handler (grab all text boxes' content
-  - JS: Get text inputs' content
-  - Create new \<li> element, fill it with user text, and append to DOM
+    - 1 button for user input
+  - JS
+    - Event handler for button click: get user input
+    - Create new table &quot;sub-tree&quot; fill in w/ text from user
+    - Append table to DOM
