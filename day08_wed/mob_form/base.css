@@ -1,0 +1,13 @@
+table, td, tr {
+  border: black 1px solid;
+  border-collapse: collapse;
+}
+
+#table1 td {
+  color: purple;
+  border: red 1px solid;
+}
+
+#table2 {
+  color: aqua;
+}
