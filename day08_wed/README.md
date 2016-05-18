@@ -62,10 +62,11 @@
 - Review assignment
 - Mob coding
   - HTML
-    - 2 text inputs
+    - 2 text inputs with *placeholder* text
     - 2 tables (each table has 2 rows)
     - 1 button for user input
   - JS
     - Event handler for button click: get user input
     - Create new table &quot;sub-tree&quot; fill in w/ text from user
     - Append table to DOM
+    - &quot;Pre-fill in&quot; one of the inputs with a default value
