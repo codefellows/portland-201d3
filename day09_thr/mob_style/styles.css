@@ -1,0 +1,16 @@
+/* Change the position, margin, padding, color, background-color, and opacity of at least one element. */
+body {
+  background-image: url('nathan.jpg');
+}
+
+h1 {
+  opacity: 0.5;
+  color: white;
+  background-color: green;
+  border: 35px yellow solid;
+  border-radius: 50%;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
