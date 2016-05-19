@@ -1,4 +1,3 @@
-/* Change the position, margin, padding, color, background-color, and opacity of at least one element. */
 @import url(https://fonts.googleapis.com/css?family=Princess+Sofia);
 
 body {
@@ -42,22 +41,8 @@ span {
   display: block;
 }
 
-.bright {
-  color: #34ff23
-}
-
-.urgent {
-  color: #b22326
-}
-
-.happy {
-  color: #ff999b
-}
-
-.sad {
-  color: #2fafff
-}
-
-.bright {
-  color: #ffffff
-}
+.bright { color: #34ff23 }
+.urgent { color: #b22326 }
+.happy  { color: #ff999b }
+.sad    { color: #2fafff }
+.bright { color: #ffffff }
