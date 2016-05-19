@@ -21,9 +21,9 @@ while (favoriteNum !== 57){
   var favoriteNum = parseInt(prompt('what is my favorite number.'));
 
   if (favoriteNum > 57){
-    alert('Your guess, ' + favoriteNum + ', is too high!'); 
+    alert('Your guess, ' + favoriteNum + ', is too high!');
   } else if (favoriteNum < 57){
-    alert('Your guess, ' + favoriteNum + ', is too low!'); 
+    alert('Your guess, ' + favoriteNum + ', is too low!');
   } else {
     alert('Nice guess!');
   }
@@ -31,12 +31,12 @@ while (favoriteNum !== 57){
 
 var pets = ['SlugNeo', 'CatMushi', 'PupQuazi', 'FrogLulwat'];
 var petRespnse = prompt('Can you name of my pets?');
-var correctGuess=false;
+var correctGuess = false;
 
-for (var i=0; i< pets.length; i++){
+for (var i = 0; i < pets.length; i++){
   console.log('pets[' + i + ']: ' + pets[i]);
   if (petRespnse === pets[i]){
-    alert('Wow, are you psychic? ' + petRespnse + ', is totally one of my pets!'); 
+    alert('Wow, are you psychic? ' + petRespnse + ', is totally one of my pets!');
     correctGuess = true;
   }
 }
