@@ -1,8 +1,6 @@
 # Lab 9
 
-**This is a pair coding lab.**
-
-Please see requirements below.
+**Pair coding lab**
 
 ## Enhance Your Pizza Shop App
 
@@ -29,17 +27,14 @@ Alternatively, you can create a separate &quot;About Us&quot; page (e.g., about.
 - Make your web app &quot;responsive&quot;, i.e., your app should scale/rearrange itself to look good on a cell phone screen, on a tablet screen, and in a (wide) desktop browser window.
 
 ## Pair coding
-This is a pair coding lab.
-
-By the end of lab, you and your partner will each have her/his own web app complete, fully styled, and **deployed**.
+This is a pair coding lab. By the end of lab, you and your partner will each have her/his own web app complete, fully styled, and **deployed**.
 
 Please follow these steps:
 
 - Do all your work for this lab on a new git branch, and use GitHub PRs at the end to merge the new branch to master. Branch from the work you did for the previous lab (where you added DOM elements that accept user input and created and rendered a new shop object(s)).
-- Navigate your app in your repo, while your coding partner dr
-ives.
+- Navigate your app in your repo, while your coding partner drives.
 - You can ask your partner to fork your repo and drive on the fork's local clone, or you can add your partner as a collaborator in your repo. Your choice, but specify in your submission which method you picked for your repo.
-- When you're done navigating, deploy your finished app to gh_pages so you can show off your app to family and friends just by sending them a URL they can click on; you may want to include the deployment URL in your own resume/portfolio site.
+- When you're done navigating, deploy your finished app to **gh_pages** so you can show off your app to family and friends just by sending them a URL they can click on; you may want to include the deployment URL in your own resume/portfolio site.
   Help on deployment will be available during lab time, but you need to first make an earnest attempt to follow on-line documentation on deployment (github.com is a good source).
 - After navigating, switch roles and drive. Your partner will decide whether you should work as a collaborator or work on a fork. Your partner should submit which method she/he chose.
 
