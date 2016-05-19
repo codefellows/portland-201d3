@@ -1,5 +1,8 @@
 /* Change the position, margin, padding, color, background-color, and opacity of at least one element. */
+@import url(https://fonts.googleapis.com/css?family=Princess+Sofia);
+
 body {
+  font-family: 'Princess Sofia', cursive;
   background-image: url('nathan.jpg');
 }
 
@@ -13,4 +16,48 @@ h1 {
   width: 50%;
   text-align: center;
   margin: auto;
+}
+
+#cowCarcass {
+  font-size: 36px;
+  text-shadow: 2px 2px 5px white;
+  float: right;
+  width: 50%;
+  color: teal;
+  display: inline;  
+}
+
+#porkSpleen {
+  font-size: 36px;
+  text-shadow: -2px -2px 5px white;
+  float: right;
+  width: 50%;
+  color: pink;
+  display: inline;  
+}
+
+span {
+  color: red;
+  margin-left: 100px;
+  display: block;
+}
+
+.bright {
+  color: #34ff23
+}
+
+.urgent {
+  color: #b22326
+}
+
+.happy {
+  color: #ff999b
+}
+
+.sad {
+  color: #2fafff
+}
+
+.bright {
+  color: #ffffff
 }
