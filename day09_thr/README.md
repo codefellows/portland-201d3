@@ -64,7 +64,7 @@ Details (from JS ch.10 Error Handling & Debugging):
 ### Tie-in to lab
 
 1. Make your Pizza Shop app look good, and deploy it so the world can view it.
-2. Get the lab done using 
+2. Get the lab done using styling and layout methods we discussed during lecture.
 
 ---
 
