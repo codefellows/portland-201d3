@@ -45,14 +45,15 @@ Styled 'Pizza Store' app(s)
 Topics: functions, flow control (for, if else), variable scope, numbers, strings, arrays, objects
   
 ---
+## Chrome Dev Tools
+- Review: breakpts, stepping, watch, call stack, box model
+- New: conditional breakpoints -- very useful
+- New: Direct color entry
+
+---
 ## Lab Prep
 - Review lab assignment
 - Mob coding: build as much of [this site](http://demo.woothemes.com/?name=petshop) from scratch as time allows
-
----
-## Chrome Dev Tools
-- Box model and direct color entry
-- Review, incl. call stack
 
 ---
 ## Lab
