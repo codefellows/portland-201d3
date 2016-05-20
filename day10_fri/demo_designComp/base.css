@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  color: #F7F3EF;
+  background-color: #4A3131;
+}
+
+nav {
+  background-color: #85A54E;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 20px;
+}
+
+#overlay {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  color: black;
+  background-color: white;
+  opacity: 0.5;
+  width: 80%;
+  margin: 0px auto;
+  height: 10em;
+}
+
+span {
+  color: #85A54E;
+  font-style: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+#welcome {
+  font-size: 2rem;
+}
+
+#shopBtn {
+  color: white;
+  font-size: 0.8rem;
+  background-color: teal;
+  width: 70px;
+  border-radius: 3px;
+  margin: 0px auto;
+  padding: 10px;
+}
