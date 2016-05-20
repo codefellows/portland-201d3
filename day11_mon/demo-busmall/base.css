@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  font-size: 2em;
+}
+
+img {
+  width:  300px;
+  height: 300px;
+  object-fit: cover;
+  margin: 0 1em;
+  border: 1px solid #59a;
+  box-sizing: border-box;
+}
+
+button {
+  visibility: hidden;
+}
+
+.wrap {
+  width: 310px;
+  display: inline-block;
+  text-align: center;
+}
+
+.cap {
+  display: inline-block;
+}
