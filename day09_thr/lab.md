@@ -17,7 +17,7 @@ Alternatively, you can create a separate &quot;About Us&quot; page (e.g., about.
 - Change at least one element whose default display type is "block", and make its display type "inline" and put it next to at least one other element.
 - Change at least one element whose default display type is "inline", and make its display type "block".
 - Use at least one font from a CDN (such as a Google font).
-- Apply a color theme such as ones [HERE](https://color.adobe.com/explore/newest) or [HERE](www.lolcolors.com). Your text can have color from the theme or a color that is not from the theme, but all other elements should contain colors from the theme. Do this for every page in your web app (i.e., index.html, sales-data.html, and any other pages you may have added).
+- Apply a color theme such as ones [HERE](https://color.adobe.com/explore/newest) or [HERE](http://www.lolcolors.com). Your text can have color from the theme or a color that is not from the theme, but all other elements should contain colors from the theme. Do this for every page in your web app (i.e., index.html, sales-data.html, and any other pages you may have added).
 
 ### Extra credit items, up to +2 points each:
 - In CSS, use `list-style-image` with an image URL to make images appear as bullets in a set of &lt;li&gt; elements. Use `::before` to create a pseudo-class to create a custom class that places an &lt;img&gt; element to the left of the contents of each &lt;li&gt; element in a list; use `list-style-type: none` to supress the default bullets from showing up. In your submission, write a comment that explains what a pseudo-class is, and how it differs from &quot;normal&quot; classes.
