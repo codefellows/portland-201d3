@@ -59,14 +59,14 @@ Lecture
 - Review Mon to Thr BusMall lab assignments
 - Mob coding
   - Download 4 image files
-  - HTML: Add <img>, <div> for image lable, <button>, <div> for "plot"
+  - HTML: Add &lt;img&gt;, &lt;div&gt; for image lable, &lt;button&gt;, &lt;div&gt; for "plot"
   - CSS: hide button
   - Event handler to show next image
   - Image object (src, Nclicks)
   - Image object array
   - Event handler: get random image
   - Nclicks++, click limit
-  - Unhide button, <div>s
+  - Unhide button, unhide plot &lt;div&gt;s
   - Button callback: plot
   - Plot: div lengths show Nclicks (grow as usr clicks more)
 - Announcement: "Uniform help" policy
