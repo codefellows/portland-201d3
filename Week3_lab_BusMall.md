@@ -40,12 +40,12 @@ BusMall is interested not only in the total number of votes, but also the percen
 Create a new branch from master for each day's lab, work on the new branch, and when the day's lab is done, issue a PR to master and accept the PR to merge that lab's features back to master.
 
 ### Daily Step 2: User Stories
-Worth **2 points** (10%) of each day's lab's grade. After Monday's scaffolding, at the start of each day's lab, work on a User Stories document first (e.g., &quot;userStories.md&quot;). Write your own list of user stories at the start of each day's lab; the most important part of the story is the "[why]" (benefit) clause: &quot;As a [who], I want [what], so that [why]&quot;.
+Worth **2 points** (10%) of each day's lab's grade. After Monday's scaffolding, at the start of each day's lab, work on a User Stories document first (e.g., &quot;userStories.md&quot;) or put User Stories to README.md. Write your own list of user stories at the start of each day's lab; the most important part of the story is the "[why]" (benefit) clause: &quot;As a [who], I want [what], so that [why]&quot;.
 
 Consider the multiple roles involved: marketing research team, developer, focus group user. The commit logs in your repo will have a few initial commits for the scaffolding process (README.md, etc.) but next, you should have a 'user stories' commit in place *before* you write any web app code; lab graders will look for your User Stories commit to be timestamped before any JS logic code is committed.
 
 Example user stories (which you don't need to follow exactly - these are *only* examples for illustration):
-- As a marketing guru, I want an app that contains 1000 images, and show the focus group user 3 images at a time, drawn randomly from the 1000-image pool, so the end user doesn't get overwhelming with too much data at once.
+- As a marketing guru, I want an app that contains 1000 images but shows the focus group user 3 images at a time, drawn randomly from the 1000-image pool, so the end user doesn't get overwhelmed with too much data at once.
 - As a marketing uber-connoisseur, I want an app that lets users vote on products they would be willing to buy, so I can determine which products are most popular.
 
 ### **Daily Step 3**: Tests
