@@ -36,7 +36,7 @@ BusMall is interested not only in the total number of votes, but also the percen
 
 ## Steps for each day's lab
 
-### Daily Step 1: User Stories
+### Daily Step 1: git branch/GitHub PR
 Create a new branch from master for each day's lab, work on the new branch, and when the day's lab is done, issue a PR to master and accept the PR to merge that lab's features back to master.
 
 ### Daily Step 2: User Stories
