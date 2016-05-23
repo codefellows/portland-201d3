@@ -1,4 +1,4 @@
-# BusMall [DRAFT VERSION]
+# BusMall App
 
 New week, new project!
 
