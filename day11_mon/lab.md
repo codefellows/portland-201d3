@@ -57,14 +57,15 @@ An example of a manual (non-automated) test:
   - After the 16th vote, the two buttons become visible.
 
 ## Monday-specific Steps
+0. Do "Daily Step 1" above.
 1. Create a new folder or repo for this week's project called something like *BusMall*.
 - Scaffold your repo/folder with the usual README.md. Add an *img/* folder to hold product images.
 - Write the purpose of your app in a README.md, then git **a-c-p**. Use good Markdown style to make README.md look nice; use the &quot;Markdown Preview&quot; feature in Atom to help you in this task.
+- Do &quot;Daily Steps&quot; 2 and 3 above. You can add user stories to README.md, but create a new file such as tests.md to hold your test descriptions.
 
 The following items are ordered in a suggested sequence. You don't need to follow this specific order, but it is provided in case you find yourself asking, "Where should I start?" or "What feature shoud I work on next?".
 
-4. Populate your img/ folder with at least ten (10) images, and use an image management application (Preview (OS X), Photo Viewer (Windows), Gimp (multi-platform), etc.) to make sure each image is less than 250 KB in size, then **a-c-p**.
-- Do &quot;Daily Steps&quot; 1 and 2 above. You can add user stories to README.md, but create a new file such as tests.md to hold your test descriptions.
+5. Populate your img/ folder with at least ten (10) images, and use an image management application (Preview (OS X), Photo Viewer (Windows), Gimp (multi-platform), etc.) to make sure each image is less than 250 KB in size, then **a-c-p**.
 - Create an HTML file(s). Include title(s), instructions, buttons, images. Give each image a "product name" text label visible to the user. The instructions are to teach a new user how to use the app. You can render instructions on a separate page, or the same page as the voting page.
 
 - Write and use a constructor that creates an object associated with each **image**, and give each image at least these properties:
