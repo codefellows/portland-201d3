@@ -1,4 +1,4 @@
-# BusMall [DRAFT VERSION]
+# BusMall App
 
 New week, new project!
 
@@ -28,7 +28,7 @@ BusMall is interested not only in the total number of votes, but also the percen
 [**Mon Lab**: Given the rendering method you chose above, add percentage info to your vote count plot, or draw a seprate "percentage vs product name" plot using the same method.]<br>
 [**Tue Lab**: Add percentage info to your vote count plot, as a combined plot. Choose a 3rd party library, such as the libraries mentioned above, that lets you combine multiple datasets into one chart.]
 
-*Time machine - peer into the future!:* On Wednesday a.m., BusMall's marketing department will receive negative feedback from users who want to save their voting progress such that when they refresh the page or restart the browser, they can resume voting, ...<br>
+*Time machine - peer into the future!:* On Wednesday a.m., BusMall's marketing department receives negative feedback from users who want to save their voting progress such that when they refresh the page or restart the browser, they can resume voting, ...<br>
 [**Wed lab**: ...so make your app persistent by saving app state in local storage. See details in the "Wednesday" section below.]
 
 *Time machine - peer even further into the future!:* BusMall is impressed with your app's logic, but wants your app to look good too, with awesome styling, layout, and *CSS animations*, and to add video content to the web site you've built for them..<br>
@@ -36,18 +36,22 @@ BusMall is interested not only in the total number of votes, but also the percen
 
 ## Steps for each day's lab
 
-### Daily Step 1: User Stories
+### Daily Step 1: git branch/GitHub PR
+Create a new branch from master for each day's lab, work on the new branch, and when the day's lab is done, issue a PR to master and accept the PR to merge that lab's features back to master.
+
+### Daily Step 2: User Stories
 Worth **2 points** (10%) of each day's lab's grade. After Monday's scaffolding, at the start of each day's lab, work on a User Stories document first (e.g., &quot;userStories.md&quot;). Write your own list of user stories at the start of each day's lab; the most important part of the story is the "[why]" (benefit) clause: &quot;As a [who], I want [what], so that [why]&quot;.
 
 Consider the multiple roles involved: marketing research team, developer, focus group user. The commit logs in your repo will have a few initial commits for the scaffolding process (README.md, etc.) but next, you should have a 'user stories' commit in place *before* you write any web app code; lab graders will look for your User Stories commit to be timestamped before any JS logic code is committed.
 
-Example user story (which you don't need to follow exactly - this is *only* an example):
-- As a marketing guru, I want an app that contains 1000 images, and show the focus group user 3 images at a time, drawn randomly from the 1000-image pool, so that I can narrow down which product images to print, to save on printing costs.
+Example user stories (which you don't need to follow exactly - these are *only* examples for illustration):
+- As a marketing guru, I want an app that contains 1000 images, and show the focus group user 3 images at a time, drawn randomly from the 1000-image pool, so the end user doesn't get overwhelming with too much data at once.
+- As a marketing uber-connoisseur, I want an app that lets users vote on products they would be willing to buy, so I can determine which products are most popular.
 
-### **Daily Step 2**: Tests
+### **Daily Step 3**: Tests
 Worth **2 points** (10%) of each day's lab's grade. Describe at least five tests per lab day in a document. Focus on tests that verify logic flow and the user experience (i.e., When someone uses your app to vote on products, do they experience what you intend them to experience?) You can write automated tests where applicable, and do manual testing where applicable.
 
-An example of a non-automated test:
+An example of a manual (non-automated) test:
 - Load the web app, then vote 16 times. During the voting process, verify these items:
   - The two buttons, "Show Results" and "8 More Votes" are not visible during the first 15 votes.
   - After the 16th vote, the two buttons become visible.
@@ -128,9 +132,10 @@ Load the video file for display in the &lt;video&gt; element. Use the "poster" a
 **+2 E.C.** Make the span (from the previous extra credit item) always appear in the lower right corner of the browser viewport no matter where the user scrolls on the page, and regardless of the browser window size.
 
 ## Submit
-For each day's lab:
-- Submit the URL of your final GitHub PR for that lab.
-- Submit in canvas answers to the following questions:
+For each day's lab, submit these items in Canvas:
+- URL of your final GitHub PR
+- Answers to the following questions:
   - How long did you take to do this lab?
   - How did this go for you, overall?
-  - What observations or questions do you have on what you've learned so far?
+  - What was most challenging?
+  - What was most rewarding?
