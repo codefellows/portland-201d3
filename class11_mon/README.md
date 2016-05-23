@@ -31,7 +31,7 @@
 
 ---
 ## Code Challenge
-Do as many of the following items before 8:10 am:
+Do as many of the following items you can before 8:10 am:
 - Write a web app that uses setInterval() to repeatly trigger a callback that prints "Hello" every second.
 - Add a counter that starts at zero on app load, then increments the counter each second and prints the counter value.
 - Render the counter value to the DOM and update the DOM each second.
