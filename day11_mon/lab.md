@@ -66,9 +66,9 @@ An example of a manual (non-automated) test:
 The following items are ordered in a suggested sequence. You don't need to follow this specific order, but it is provided in case you find yourself asking, "Where should I start?" or "What feature shoud I work on next?".
 
 5. Populate your img/ folder with at least ten (10) images, and use an image management application (Preview (OS X), Photo Viewer (Windows), Gimp (multi-platform), etc.) to make sure each image is less than 250 KB in size, then **a-c-p**.
-- Create an HTML file(s). Include title(s), instructions, buttons, images. Give each image a "product name" text label visible to the user. The instructions are to teach a new user how to use the app. You can render instructions on a separate page, or the same page as the voting page.
+- Create an HTML file(s). Include title(s), instructions, buttons, images. The instructions are to teach a new user how to use the app. You can render instructions on a separate page, or the same page as the voting page. Give each image a "product name" text label visible to the user.
 
-- Write and use a constructor that creates an object associated with each **image**, and give each image at least these properties:
+- Write and use a constructor that creates an object associated with each **image**, and give each image object at least these properties:
  - Filename
  - Product Name
  - Number of times shown
