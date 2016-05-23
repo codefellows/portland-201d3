@@ -28,7 +28,7 @@ BusMall is interested not only in the total number of votes, but also the percen
 [**Mon Lab**: Given the rendering method you chose above, add percentage info to your vote count plot, or draw a seprate "percentage vs product name" plot using the same method.]<br>
 [**Tue Lab**: Add percentage info to your vote count plot, as a combined plot. Choose a 3rd party library, such as the libraries mentioned above, that lets you combine multiple datasets into one chart.]
 
-*Time machine - peer into the future!:* On Wednesday a.m., BusMall's marketing department will receive negative feedback from users who want to save their voting progress such that when they refresh the page or restart the browser, they can resume voting, ...<br>
+*Time machine - peer into the future!:* On Wednesday a.m., BusMall's marketing department receives negative feedback from users who want to save their voting progress such that when they refresh the page or restart the browser, they can resume voting, ...<br>
 [**Wed lab**: ...so make your app persistent by saving app state in local storage. See details in the "Wednesday" section below.]
 
 *Time machine - peer even further into the future!:* BusMall is impressed with your app's logic, but wants your app to look good too, with awesome styling, layout, and *CSS animations*...<br>
@@ -41,13 +41,14 @@ Worth **2 points** (10%) of each day's lab's grade. After Monday's scaffolding, 
 
 Consider the multiple roles involved: marketing research team, developer, focus group user. The commit logs in your repo will have a few initial commits for the scaffolding process (README.md, etc.) but next, you should have a 'user stories' commit in place *before* you write any web app code; lab graders will look for your User Stories commit to be timestamped before any JS logic code is committed.
 
-Example user story (which you don't need to follow exactly - this is *only* an example):
-- As a marketing guru, I want an app that contains 1000 images, and show the focus group user 3 images at a time, drawn randomly from the 1000-image pool, so that I can narrow down which product images to print, to save on printing costs.
+Example user stories (which you don't need to follow exactly - these are *only* examples for illustration):
+- As a marketing guru, I want an app that contains 1000 images, and show the focus group user 3 images at a time, drawn randomly from the 1000-image pool, so the end user doesn't get overwhelming with too much data at once.
+- As a marketing uber-connoisseur, I want an app that lets users vote on products they would be willing to buy, so I can determine which products are most popular.
 
 ### **Daily Step 2**: Tests
 Worth **2 points** (10%) of each day's lab's grade. Describe at least five tests per lab day in a document. Focus on tests that verify logic flow and the user experience (i.e., When someone uses your app to vote on products, do they experience what you intend them to experience?) You can write automated tests where applicable, and do manual testing where applicable.
 
-An example of a non-automated test:
+An example of a manual (non-automated) test:
 - Load the web app, then vote 16 times. During the voting process, verify these items:
   - The two buttons, "Show Results" and "8 More Votes" are not visible during the first 15 votes.
   - After the 16th vote, the two buttons become visible.
