@@ -37,6 +37,9 @@ Do as many of the following items before 8:10 am:
 - Render the counter value to the DOM and update the DOM each second.
 - Render a button that says, "Click me if you can", and use Math.random() and setInterval to change the button's 2-D position in the viewport every 0.5 seconds.
 - Add a callback that triggers when the user clicks the "hopping" button, and increment a "score", and render the score in the upper left corner of the viewport.
+- Change the button to an image, or give the button a background image.
+- Uss CSS to change the mouse cursor to use an image, with x,y coordinates to offset the cursor's "click point"
+- Uss CSS to change the mouse cursor to use a different image (w.r.t. the previous requirement) when the cursor's click point is actually hovering over the button.
 
 ---
 ## Code Review
