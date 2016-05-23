@@ -123,13 +123,10 @@ Resume features/cases
   - Sspatial resolution between 480x320 and 1080p, inclusive
   - Contains an audible audio track(s)
   - Time duration >= 5 seconds
-  - Filesize <= 2 MB
-
-Load the video file for display in the &lt;video&gt; element.
-
-Use the "poster" attribute to set the initial image to be representative of the video, but is not a video frame found in the first 2 seconds of the video.
-
-**+2 E.C.** Render the video as a full-width background video that plays continuously in an infinite loop.
+  - Filesize <= 2 MB<br>
+  Load the video file for display in the &lt;video&gt; element.<br>
+  Use the "poster" attribute to set the initial image to be representative of the video, but is not a video frame found in the first 2 seconds of the video.<br>
+  **+2 E.C.** Render the video as a full-width background video that plays continuously in an infinite loop.
 
 **+2 E.C.** Implement an "Easter Egg" in JS where the user can press the 'C' key to toggle the visibility of a &lt;span&gt; in the footer of your page; the span must initially be invisible and stay invisible until it is toggled to be visible; the span should show a dynamically updated count of the number of times the "inifinite" animation loop has repeated. Update frequency: The count must update every time the animation repeats. *Hints: Add an event listener for a keypress and in that callback, filter the event for the 'C' key's keycode. Add an event listener for the* **end** *of an animation event.*
 
