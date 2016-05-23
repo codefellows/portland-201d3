@@ -124,7 +124,10 @@ Resume features/cases
   - Contains an audible audio track(s)
   - Time duration >= 5 seconds
   - Filesize <= 2 MB
-Load the video file for display in the &lt;video&gt; element. Use the "poster" attribute to set the initial image to be representative of the video, but is not a video frame found in the first 2 seconds of the video.
+
+Load the video file for display in the &lt;video&gt; element.
+
+Use the "poster" attribute to set the initial image to be representative of the video, but is not a video frame found in the first 2 seconds of the video.
 
 **+2 E.C.** Render the video as a full-width background video that plays continuously in an infinite loop.
 
