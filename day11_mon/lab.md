@@ -31,8 +31,8 @@ BusMall is interested not only in the total number of votes, but also the percen
 *Time machine - peer into the future!:* On Wednesday a.m., BusMall's marketing department will receive negative feedback from users who want to save their voting progress such that when they refresh the page or restart the browser, they can resume voting, ...<br>
 [**Wed lab**: ...so make your app persistent by saving app state in local storage. See details in the "Wednesday" section below.]
 
-*Time machine - peer even further into the future!:* BusMall is impressed with your app's logic, but wants your app to look good too, with awesome styling, layout, and *CSS animations*...<br>
-[**Thr lab**: ...so add styling, layout, and CSS animations. See details in the "Thursday" section below.]
+*Time machine - peer even further into the future!:* BusMall is impressed with your app's logic, but wants your app to look good too, with awesome styling, layout, and *CSS animations*, and to add video content to the web site you've built for them..<br>
+[**Thr lab**: ...so add styling, layout, CSS animations, and video. See details in the "Thursday" section below.]
 
 ## Steps for each day's lab
 
@@ -113,9 +113,19 @@ Resume features/cases
   - R2. For at least one of your animations, use at least three @keyframe "points" to repeat an animation, and use "alternate" as the animation direction.
   - R3. Make at least one of your animationn repeat an "infinite" number of times.
 
+2. Add a &lt;video&gt; element to your HTML, and add video content. Force the video element's width to be at least 50% of the width of the browser viewport. Create a "vid/" folder, and include in it at least one video file that meets the following criteria:
+  - File format/codec compatible with Chrome and one other major browser (Firefox, Safari, Opera, or IE)
+  - Sspatial resolution between 480x320 and 1080p, inclusive
+  - Contains an audible audio track(s)
+  - Time duration >= 5 seconds
+  - Filesize <= 2 MB
+Load the video file for display in the &lt;video&gt; element. Use the "poster" attribute to set the initial image to be representative of the video, but is not a video frame found in the first 2 seconds of the video.
+
+**+2 E.C.** Render the video as a full-width background video that plays continuously in an infinite loop.
+
 **+2 E.C.** Implement an "Easter Egg" in JS where the user can press the 'C' key to toggle the visibility of a &lt;span&gt; in the footer of your page; the span must initially be invisible and stay invisible until it is toggled to be visible; the span should show a dynamically updated count of the number of times the "inifinite" animation loop has repeated. Update frequency: The count must update every time the animation repeats. *Hints: Add an event listener for a keypress and in that callback, filter the event for the 'C' key's keycode. Add an event listener for the* **end** *of an animation event.*
 
-**+2 E.C.** Make the span always appear in the lower right corner of the browser viewport no matter where the user scrolls on the page, and regardless of the browser window size.
+**+2 E.C.** Make the span (from the previous extra credit item) always appear in the lower right corner of the browser viewport no matter where the user scrolls on the page, and regardless of the browser window size.
 
 ## Submit
 For each day's lab:
