@@ -116,7 +116,7 @@ Resume features/cases
 - For animation, use mostly CSS and a small amount of HTML (and **no** JS) to implement the following requirements:
   - R1. Use at least 3 types of CSS animations (such as transitions, fade in/out the page or a section(s), slide the page or a section(s) in/out, rotate elements in 2-D, rotate elements in 3-D, etc.) Using the same animation type on three DOM elements doesn't count - the animations must be of different types.
   - R2. For at least one of your animations, use at least three @keyframe "points" to repeat an animation, and use "alternate" as the animation direction.
-  - R3. Make at least one of your animationn repeat an "infinite" number of times.
+  - R3. Make at least one of your animations repeat an "infinite" number of times.
 
 2. Add video content:
   - Add a &lt;video&gt; element to your HTML. Force the video element's width to be at least 50% of the width of the browser viewport.
