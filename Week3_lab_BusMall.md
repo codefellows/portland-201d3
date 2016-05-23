@@ -13,7 +13,7 @@ BusMall wants a web app that shows potential products to users, showing three ra
 BusMall wants your app to show three images side-by-side in a single row, so you'll need to manage the size and aspect ratio of the images, and may need to edit them a bit by cropping them (alternatively, you can set images' CSS background-size to "cover" or "contain"). Be careful of large image file sizes (See "Monday" section below).
 
 To keep the marketing analysis unbiased, do not show voting results before all 16 votes have been cast; even after 16 votes, do not automatically show the results; instead, BusMall wants you to make two buttons visible on the page once 16 votes are cast: one button that, when clicked, shows voting results, the other button that lets the user decide to vote 8 more times, then show results automatically after the 8th additional vote.<br>
-[**Mon Lab**: Write logic that shows/hides the buttons at the right timess, but implement the callback only for the *"Show Results" button*]<br>
+[**Mon Lab**: Write logic that shows/hides the buttons at the right times, but implement the callback only for the *"Show Results" button*]<br>
 [**Tue Lab**: Implement a callback for the "8 More Votes" button.]
 
 To show results, your app should render product votes in a 2-D vote histogram plot, with the product name on one axis, and number of votes on the other axis.<br>
