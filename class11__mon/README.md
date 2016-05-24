@@ -23,23 +23,10 @@
   - Time efficiency: Be concise; stay on topic. "Parking Lot" on whiteboard for later
   - Code challenges
 - "Uniform help" policy published
-- Week 2 topics review
 - Quiz scores by end of today
 - 1:1 times?: poll
 - 301 entrance exam: ~26 Qs on Git, HTML, CSS, JS (incl. OOP), multiple choice, open book, 60 to 80 mins typ.
 - "Pay It Forward" group project theme
-
----
-## Code Challenge
-Do as many of the following items as you can before 8:10 am:
-- Write a web app that uses setInterval() to repeatly trigger a callback that prints "Hello" every second.
-- Add a counter that starts at zero on app load, then increments the counter each second and prints the counter value.
-- Render the counter value to the DOM and update the DOM each second.
-- Render a button that says, "Click me if you can", and use Math.random() and setInterval to change the button's 2-D position in the viewport every 0.5 seconds.
-- Add a callback that triggers when the user clicks the "hopping" button, and increment a "score", and render the score in the upper left corner of the viewport.
-- Change the button to an image, or give the button a background image.
-- Uss CSS to change the mouse cursor to use an image, with x,y coordinates to offset the cursor's "click point"
-- Uss CSS to change the mouse cursor to use a different image (w.r.t. the previous requirement) when the cursor's click point is actually hovering over the button.
 
 ---
 ## Code Review
