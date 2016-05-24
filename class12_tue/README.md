@@ -20,7 +20,7 @@
 ## Code Challenge
 
 ### Challenge # 1
-- Create a web app that shows the user a checkbox labeled "blocked" and a &t;button&gt;.
+- Create a web app that shows the user a checkbox labeled "blocked" and a &lt;button&gt;.
 - By default, leave the checkbox *unchecked*.
 - When the user clicks the &lt;button&gt;, toggle the visibility of an element that says "Hello!".
 - When the checkbox is *checked*, disable the behavior of the &lt;button&gt; -- i.e., don't let that buton toggle the text element.
@@ -68,10 +68,3 @@ BusMall Lab 11
 ---
 ## Lab
 - BusMall app
-
-
-
----
-## Chrome Dev Tools
-- Review: breakpts, stepping, watch, call stack, box model
-- Conditional breakpoints -- very useful
