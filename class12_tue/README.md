@@ -47,6 +47,11 @@ Do as many of the following items as you can before 8:15 am:
 ### Paired Review
 BusMall Lab 11
 
+## Lecture
+- Review &lt;canvas&gt; concepts from readings
+- Charting libraries: motivation and concepts
+- Chart.js overview
+
 ---
 ## Lab Prep
 - Review Tue lab (Lab 12)
