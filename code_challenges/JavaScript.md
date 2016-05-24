@@ -127,3 +127,22 @@ Determine all possible solutions for the given input.<br>
   pineapple 399<br>
   watermelon 500<br>
   **Note**: For this input, there are 180 solutions.
+
+
+- JS-15 (browser, UI)
+  - Create a web app that shows the user a checkbox labeled "blocked" and a &lt;button&gt;.
+  - By default, leave the checkbox *unchecked*.
+  - When the user clicks the &lt;button&gt;, toggle the visibility of an element that says "Hello!".
+  - When the checkbox is *checked*, disable the behavior of the &lt;button&gt; -- i.e., don't let that buton toggle the text element.
+
+- JS-16 (browser, "game-like")
+  - Write a web app that uses setInterval() to repeatly trigger a callback that prints "Hello" every second.
+  - Add a counter that starts at zero on app load, then increments the counter each second and prints the counter value.
+  - Render the counter value to the DOM and update the DOM each second.
+  - Render a button that says, "Click me if you can", and use Math.random() and setInterval to change the button's 2-D position in the viewport every 0.5 seconds.
+  - Add a callback that triggers when the user clicks the "hopping" button, and increment a "score", and render the score in the upper left corner of the viewport.
+  - Change the button to an image, or give the button a background image.
+  - Uss CSS to change the mouse cursor to use an image, with x,y coordinates to offset the cursor's "click point"
+  - Uss CSS to change the mouse cursor to use a different image (w.r.t. the previous requirement) when the cursor's click point is actually hovering over the button.
+
+- JS-17
