@@ -105,7 +105,9 @@ Resume features/cases
 |Round's clicks<16|Continue voting|# of clicks so far, "normal vote" flag, images visible|
 |2 buttons shown|Show buttons|"buttons shown" flag, images visible|
 |"8 more", clicks<8|Continue 8more voting|# clicks, "8more" flag, images visible|
-|Chart shown|Show chart, "Vote again" button|"chart shown" mode, images visible|
+|Chart shown|Show chart, "Vote again" button|"chart shown" mode, images in/visible* |
+
+* Your choice, but persist your app one way or the other.
 
 ## Thursday-specific steps
 
