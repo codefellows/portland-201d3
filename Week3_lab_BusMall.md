@@ -113,13 +113,7 @@ Resume features/cases
 
 *NOTE: You are* **strongly** encouraged to submit this lab before 8am Fri so you can focus on the 301 Entrance Exam and your Week 4 group project in the final five days of class.
 
-1. Use a custom font(s), color palette, layout, and semantic HTML. Optionally, you may want to use flexbox, Unsemantic, Bootstrap, Skeleton, or another layout system. Choose aesthetically appealing style settings such as font size and weight, padding, borders, margins, etc.
-- For animation, use mostly CSS and a small amount of HTML (and **no** JS) to implement the following requirements:
-  - R1. Use at least 3 types of CSS animations (such as transitions, fade in/out the page or a section(s), slide the page or a section(s) in/out, rotate elements in 2-D, rotate elements in 3-D, etc.) Using the same animation type on three DOM elements doesn't count - the animations must be of different types.
-  - R2. For at least one of your animations, use at least three @keyframe "points" to repeat an animation, and use "alternate" as the animation direction.
-  - R3. Make at least one of your animations repeat an "infinite" number of times.
-
-2. Add video content:
+1. Video
   - Add a &lt;video&gt; element to your HTML. Force the video element's width to be at least 50% of the width of the browser viewport.
   - Create a "vid/" folder, and include in it at least one video file that meets the following criteria:
     - File format/codec compatible with Chrome and one other major browser (Firefox, Safari, Opera, or IE)
@@ -130,10 +124,15 @@ Resume features/cases
   - Load the video file for display in the &lt;video&gt; element.
   - Use the "poster" attribute to set the initial image to be representative of the video, but is not a video frame found in the first 2 seconds of the video.
   - **+2 E.C.** Render the video as a full-width background video that plays continuously in an infinite loop.
-
-**+2 E.C.** Implement an "Easter Egg" in JS where the user can press the 'C' key to toggle the visibility of a &lt;span&gt; in the footer of your page; the span must initially be invisible and stay invisible until it is toggled to be visible; the span should show a dynamically updated count of the number of times the "inifinite" animation loop has repeated. Update frequency: The count must update every time the animation repeats. *Hints: Add an event listener for a keypress and in that callback, filter the event for the 'C' key's keycode. Add an event listener for the* **end** *of an animation event.*
-
-**+2 E.C.** Make the span (from the previous extra credit item) always appear in the lower right corner of the browser viewport no matter where the user scrolls on the page, and regardless of the browser window size.
+- Animation
+  Use mostly CSS and a small amount of HTML (and **no** JS) to implement the following requirements:
+  - R1. Use at least 3 types of CSS animations (such as transitions, fade in/out the page or a section(s), slide the page or a section(s) in/out, rotate elements in 2-D, rotate elements in 3-D, etc.) Using the same animation type on three DOM elements doesn't count - the animations must be of different types.
+  - R2. For at least one of your animations, use at least three @keyframe "points" to repeat an animation, and use "alternate" as the animation direction.
+  - R3. Make at least one of your animations repeat an "infinite" number of times.
+  - **+2 E.C.** Implement an "Easter Egg" in JS where the user can press the 'C' key to toggle the visibility of a &lt;span&gt; in the footer of your page; the span must initially be invisible and stay invisible until it is toggled to be visible; the span should show a dynamically updated count of the number of times the "inifinite" animation loop has repeated. Update frequency: The count must update every time the animation repeats. *Hints: Add an event listener for a keypress and in that callback, filter the event for the 'C' key's keycode. Add an event listener for the* **end** *of an animation event.*
+  - **+2 E.C.** Make the span (from the previous extra credit item) always appear in the lower right corner of the browser viewport no matter where the user scrolls on the page, and regardless of the browser window size.
+- Style and layout
+  - Use a custom font(s), color palette, layout, and semantic HTML. Optionally, you can use CSS3 flexbox, Unsemantic, Bootstrap, Skeleton, or another layout system(s). Choose aesthetically appealing style settings in font size and weight, padding, borders, margins, borders, positioning, background color, font color, opacity, etc.
 
 ## Submit
 For each day's lab, submit these items in Canvas:
