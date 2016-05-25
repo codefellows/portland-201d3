@@ -23,11 +23,11 @@ Connection to older objectives (stacked learning). Ordered by "restore" executio
 ## Code Review
 
 ### Code review objectives
-1. Chart.js &amp
-2. Logic, including callback for "More Votes"
+1. How Chart.js is used
+2. JS logic in the "More Votes" click handler
 
 ### Paired Review
-BusMall Lab 12
+BusMall Lab 12 (Tue / Chart.js)
 
 ---
 ## Lecture
