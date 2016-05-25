@@ -107,7 +107,7 @@ Resume features/cases
 |"8 more", clicks<8|Continue 8more voting|# clicks, "8more" flag, images visible|
 |Chart shown|Show chart, "Vote again" button|"chart shown" mode, images in/visible* |
 
-* Your choice, but persist your app one way or the other.
+&#042; Your choice, but persist your app one way or the other.
 
 ## Thursday-specific steps
 
