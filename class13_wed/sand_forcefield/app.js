@@ -8,14 +8,14 @@ checkbox.addEventListener('change', function() {
   if (checkbox.checked) {
     depth = 1000;
   }
-  forcefield.style['z-index'] = depth;
+  forcefield.style['z-index'] = checkbox.checked ? 1000 : -1000;
 });
 
 imgContain.addEventListener('click', function(ev) {
-  console.log("Boo! Image container clicked. target: ", ev.target);
+  console.log("Boo! Image container clicked. target =", ev.target);
 });    
 
 forcefield.addEventListener('click', function(ev) {
   ev.stopPropagation();
-  console.log("Forcefield clicked. Target = ", ev.target);
+  console.log("Forcefield clicked. Target =", ev.target);
 });
