@@ -67,14 +67,13 @@ The following items are ordered in a suggested sequence. You don't need to follo
 
 5. Populate your img/ folder with at least ten (10) images, and use an image management application (Preview (OS X), Photo Viewer (Windows), Gimp (multi-platform), etc.) to make sure each image is less than 250 KB in size, then **a-c-p**.
 - Create an HTML file(s). Include title(s), instructions, buttons, images. The instructions are to teach a new user how to use the app. You can render instructions on a separate page, or the same page as the voting page. Give each image a "product name" text label visible to the user.
-
 - Write and use a constructor that creates an object associated with each **image**, and give each image object at least these properties:
  - Filename
  - Product Name
  - Number of times shown
  - Number of times clicked
 - Write code that randomly selects three images from img/, then display them "side by side by side" in the browser window.<br>
-[**+1 Extra Credit** if you make your site responsive, such that the images are shown in a column when the browser viewport is narrow.]
+  [**+1 Extra Credit** if you make your site responsive, such that the images are shown in a column when the browser viewport is narrow.]
 - Handle mouse clicks on displayed images, and track clicks and the "times displayed" count for each image.
 - Include two hidden buttons, one to display votes, one to allow 8 more votes, and make the buttons visible after the 16th vote.
 - Add an event listener for the "Show Results" button; the callback should plots vote results.
@@ -106,19 +105,15 @@ Resume features/cases
 |Round's clicks<16|Continue voting|# of clicks so far, "normal vote" flag, images visible|
 |2 buttons shown|Show buttons|"buttons shown" flag, images visible|
 |"8 more", clicks<8|Continue 8more voting|# clicks, "8more" flag, images visible|
-|Chart shown|Show chart, "Vote again" button|"chart shown" mode, images visible|
+|Chart shown|Show chart, "Vote again" button|"chart shown" mode, images in/visible* |
+
+&#042; Your choice, but persist your app one way or the other.
 
 ## Thursday-specific steps
 
 *NOTE: You are* **strongly** encouraged to submit this lab before 8am Fri so you can focus on the 301 Entrance Exam and your Week 4 group project in the final five days of class.
 
-1. Use a custom font(s), color palette, layout, and semantic HTML. Optionally, you may want to use flexbox, Unsemantic, Bootstrap, Skeleton, or another layout system. Choose aesthetically appealing style settings such as font size and weight, padding, borders, margins, etc.
-- For animation, use mostly CSS and a small amount of HTML (and **no** JS) to implement the following requirements:
-  - R1. Use at least 3 types of CSS animations (such as transitions, fade in/out the page or a section(s), slide the page or a section(s) in/out, rotate elements in 2-D, rotate elements in 3-D, etc.) Using the same animation type on three DOM elements doesn't count - the animations must be of different types.
-  - R2. For at least one of your animations, use at least three @keyframe "points" to repeat an animation, and use "alternate" as the animation direction.
-  - R3. Make at least one of your animations repeat an "infinite" number of times.
-
-2. Add video content:
+1. Video
   - Add a &lt;video&gt; element to your HTML. Force the video element's width to be at least 50% of the width of the browser viewport.
   - Create a "vid/" folder, and include in it at least one video file that meets the following criteria:
     - File format/codec compatible with Chrome and one other major browser (Firefox, Safari, Opera, or IE)
@@ -129,10 +124,15 @@ Resume features/cases
   - Load the video file for display in the &lt;video&gt; element.
   - Use the "poster" attribute to set the initial image to be representative of the video, but is not a video frame found in the first 2 seconds of the video.
   - **+2 E.C.** Render the video as a full-width background video that plays continuously in an infinite loop.
-
-**+2 E.C.** Implement an "Easter Egg" in JS where the user can press the 'C' key to toggle the visibility of a &lt;span&gt; in the footer of your page; the span must initially be invisible and stay invisible until it is toggled to be visible; the span should show a dynamically updated count of the number of times the "inifinite" animation loop has repeated. Update frequency: The count must update every time the animation repeats. *Hints: Add an event listener for a keypress and in that callback, filter the event for the 'C' key's keycode. Add an event listener for the* **end** *of an animation event.*
-
-**+2 E.C.** Make the span (from the previous extra credit item) always appear in the lower right corner of the browser viewport no matter where the user scrolls on the page, and regardless of the browser window size.
+- Animation
+  Use mostly CSS and a small amount of HTML (and **no** JS) to implement the following requirements:
+  - R1. Use at least 3 types of CSS animations (such as transitions, fade in/out the page or a section(s), slide the page or a section(s) in/out, rotate elements in 2-D, rotate elements in 3-D, etc.) Using the same animation type on three DOM elements doesn't count - the animations must be of different types.
+  - R2. For at least one of your animations, use at least three @keyframe "points" to repeat an animation, and use "alternate" as the animation direction.
+  - R3. Make at least one of your animations repeat an "infinite" number of times.
+  - **+2 E.C.** Implement an "Easter Egg" in JS where the user can press the 'C' key to toggle the visibility of a &lt;span&gt; in the footer of your page; the span must initially be invisible and stay invisible until it is toggled to be visible; the span should show a dynamically updated count of the number of times the "inifinite" animation loop has repeated. Update frequency: The count must update every time the animation repeats. *Hints: Add an event listener for a keypress and in that callback, filter the event for the 'C' key's keycode. Add an event listener for the* **end** *of an animation event.*
+  - **+2 E.C.** Make the span (from the previous extra credit item) always appear in the lower right corner of the browser viewport no matter where the user scrolls on the page, and regardless of the browser window size.
+- Style and layout
+  - Use a custom font(s), color palette, layout, and semantic HTML. Optionally, you can use CSS3 flexbox, Unsemantic, Bootstrap, Skeleton, or another layout system(s). Choose aesthetically appealing style settings in font size and weight, padding, borders, margins, borders, positioning, background color, font color, opacity, etc.
 
 ## Submit
 For each day's lab, submit these items in Canvas:
