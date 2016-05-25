@@ -1,7 +1,6 @@
 #divImg {
   width:  300px;
   height: 300px;
-  background-image: url("img/hamster.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -13,4 +12,8 @@ button, #plot {
 
 img {
   display: none;
+}
+
+figcaption {
+  font-size: 3em;
 }

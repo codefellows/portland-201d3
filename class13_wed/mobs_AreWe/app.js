@@ -2,15 +2,14 @@ function gebi(id) {
   return document.getElementById(id);
 }
 
-var imgNames = ['colorFruit.jpg',
-                'outdoors.jpg',
-                'waterRose.jpg',
-                'hamster.jpg'];
+var imgNames = ['colorFruit.jpg', // 0
+                'outdoors.jpg',   // 1
+                'waterRose.jpg',  // 2
+                'hamster.jpg'];   // 3
 var images = [];
-
 var totalClicks = 0;
-
-divImg = gebi('divImg');
+var divImg = gebi('divImg');
+var fig = gebi('fig'); // Neugen?
 
 function getRandomInt() {
   return Math.floor(imgNames.length * Math.random()); // idx is a random integer
@@ -45,7 +44,15 @@ for (var ii = 0; ii < imgNames.length; ii++) {
 
 console.log(images);
 
-showNewImage(getRandomInt());
+// Load initial image
+var ri = localStorage.currentImgIdx;
+if (! ri) { // If app hasn't run before, localStorage doesn't contain state
+  ri = getRandomInt(); // so generate a random index #
+  console.log('localStorage doesn\'t hold state');
+} else { console.log('** localStorage HAS state'); }
+
+showNewImage(ri);
+
 console.log('divImg.imageIdx = ' + divImg.imageIdx);
 
 divImg.addEventListener('click', refreshImage);
@@ -57,6 +64,7 @@ function refreshImage() {
   var s = 'click counts: ';
   images.map(function(ele) { s += ele.Nclicks + ', '; });
   console.log(s);
+  fig.innerText = s;
 
   totalClicks++;
   console.log('totalClicks = ' + totalClicks);
@@ -66,7 +74,17 @@ function refreshImage() {
     console.log('* Not a multiple of 5.');
   }
 
-  showNewImage(getRandomInt());
+  var ri = getRandomInt();
+  showNewImage(ri);
+  localStorage.currentImgIdx = ri;
+
   // Can use dot notation ("width" doesn't contain a dash
   //divImg.style.width = '600px';
+}
+
+/*var ____ = 'I\'m feeling low';
+console.log(____);*/
+function saveState() {
+  localStorage['voting.in.progress'] = votingProgress;
+
 }
