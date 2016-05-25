@@ -67,14 +67,13 @@ The following items are ordered in a suggested sequence. You don't need to follo
 
 5. Populate your img/ folder with at least ten (10) images, and use an image management application (Preview (OS X), Photo Viewer (Windows), Gimp (multi-platform), etc.) to make sure each image is less than 250 KB in size, then **a-c-p**.
 - Create an HTML file(s). Include title(s), instructions, buttons, images. The instructions are to teach a new user how to use the app. You can render instructions on a separate page, or the same page as the voting page. Give each image a "product name" text label visible to the user.
-
 - Write and use a constructor that creates an object associated with each **image**, and give each image object at least these properties:
  - Filename
  - Product Name
  - Number of times shown
  - Number of times clicked
 - Write code that randomly selects three images from img/, then display them "side by side by side" in the browser window.<br>
-[**+1 Extra Credit** if you make your site responsive, such that the images are shown in a column when the browser viewport is narrow.]
+  [**+1 Extra Credit** if you make your site responsive, such that the images are shown in a column when the browser viewport is narrow.]
 - Handle mouse clicks on displayed images, and track clicks and the "times displayed" count for each image.
 - Include two hidden buttons, one to display votes, one to allow 8 more votes, and make the buttons visible after the 16th vote.
 - Add an event listener for the "Show Results" button; the callback should plots vote results.
