@@ -6,8 +6,9 @@
 }
 
 .fadeinAnim {
-  animation: fadein 1s; /* easein; */
-  -webkit-animation: fadein 1s; /* easein; */
+  animation: fadein 1s;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
 }
 
 @-webkit-keyframes fadein {
@@ -16,8 +17,9 @@
 }
 
 .fadeoutAnim {
-  animation: fadeout 1s; /* easein; */
-  -webkit-animation: fadeout 1s; /* easein; */
+  animation: fadeout 1s;
+  -webkit-animation: fadeout 1s;
+  -moz-animation: fadeout 1s;
 }
 
 @-webkit-keyframes fadeout {
