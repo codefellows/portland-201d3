@@ -1,0 +1,48 @@
+#divImg {
+  width:  300px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+button, #plot {
+/*display: none;*/
+  visibility: hidden;
+}
+
+img {
+  display: none;
+}
+
+figcaption {
+  font-size: 3em;
+}
+
+p {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position :relative;
+    -webkit-animation: mymove 5s; /* Chrome, Safari, Opera */
+    animation: mymove 5s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    75%  {top: 50px}
+    100% {top: 100px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    75%  {top: 50px}
+    100% {top: 100px;}
+}
+
+.fade {
+  opacity: 0.5;
+}
