@@ -16,11 +16,21 @@ function getRandomInt() {
 }
 
 function showNewImage(idx) {
-  divImg.style['background-image'] = 'url("' + images[idx].src + '")';
+  // divImg.style['background-image'] = 'url("' + images[idx].src + '")';
+  divImg.setAttribute('src', images[idx].src);
+
   divImg.imageIdx = idx; // Store index of visible image
   images[idx].incrementNshown();
   var s = 'Show counts: ';
   images.map(function(ele) { s += ele.Nshown + ', '; });
+  divImg.className = 'fadeinAnim';
+  // Same as: divImg.setAttribute('class', 'fadeinAnim');
+
+  setTimeout(function() {
+    divImg.className = '';
+  }, 1000);
+
+  divImg.style['opacity'] = 1;
   console.log(s);
 }
 

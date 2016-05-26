@@ -5,13 +5,28 @@
   background-position: center;
 }
 
-button, #plot {
-/*display: none;*/
-  visibility: hidden;
+.fadeinAnim {
+  animation: fadein 1s; /* easein; */
+  -webkit-animation: fadein 1s; /* easein; */
 }
 
-img {
-  display: none;
+@-webkit-keyframes fadein {
+  0%   { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+.fadeoutAnim {
+  animation: fadeout 1s; /* easein; */
+  -webkit-animation: fadeout 1s; /* easein; */
+}
+
+@-webkit-keyframes fadeout {
+  0%   { opacity: 1.0; }
+  100% { opacity: 0.1; }
+}
+
+button {
+  visibility: hidden;
 }
 
 figcaption {
@@ -43,6 +58,6 @@ p {
     100% {top: 100px;}
 }
 
-.fade {
+/*.fade {
   opacity: 0.5;
-}
+}*/
