@@ -38,7 +38,7 @@ function Image(src) {
 
 // Load initial image
 var ri = localStorage.currentImgIdx;
-if (! ri) { // If app hasn't run before, localStorage doesn't contain state
+if (isNaN(ri)) { // If app hasn't run before, localStorage doesn't contain state
   console.log('localStorage doesn\'t hold state');
   ri = getRandomInt(); // so generate a random index #
 
