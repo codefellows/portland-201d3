@@ -19,10 +19,14 @@ Work with a team to build a new multi-page web application that simulates a real
   - Form teams for Project Week and choose a topic.
   - Brainstorm user stories, draw wireframes, & write and submit a formal proposal.
   - Initialize repo and GitHub Issues.
+  - Submit "Project Status Report #1" in Canvas, due **11:59pm**
 - Day 2 (Tue): Online final exam, due **8 am**
-- Day 2 to 5 (Tue to Fri): Develop your web application; deploy every day.
-- Day 5 (Fri 6/3): Present project at **1:30 pm
-- Day 5: Submit team and solo Canvas items.
+- Day 2 to 5 (Tue to Fri):
+  - Develop your web application; deploy every day.
+  - Submit Project Status Reports in Canvas, due **11:59pm every day**
+- Day 5 (Fri 6/3)
+  - Present project at **1:30 pm**
+  - Submit "Teamwork" and "Individual Contribution" Canvas items.
 
 ### Canvas
 #### Point Allocations and Grading
@@ -40,10 +44,10 @@ Your "Project Week" grade is worth 30% of your overall grade. The 30% is broken 
     - Project proposal: 7.5 points (10% of 75)
     - Project team effort: 67.5 points (90% of 75)<br>
       Grading basis:
-      - Project-level activity: Documentation, use of GitHub Issues, branches, PRs, and merges
-      - Technical merit: Web app functionality, UI design, code quality
+      - Project-level activity: documentation, effective use of GitHub Issues, branches, PRs, and merges
+      - Technical merit: Web app's functionality, usability/UI design, architecture, code quality
 
-Project Week points sum to 270, so every set of 9 points is worth 1% of your overall grade.
+Project Week points sum to 270; every 9 points is worth 1% of your overall grade.
 
 Extra credit points will be available for the Project, and can potentially raise your Project Week grade above 30%.
 #### Assignments
@@ -51,17 +55,17 @@ Four Canvas assignments correspond to the work mentioned above, as shown here:
 
 |Canvas Item|Deadline|
 |---|---|
-|Final Exam|8:00 am Day 5 (6/3)|
 |Project Proposal|11:59 pm Day 1 (5/27)|
+|Final Exam|8:00 am Day 2 (5/31)|
 |Project Teamwork|11:59 pm Day 5 (6/3)|
 |Individual Contribution|11:59 pm Day 5 (6/3)|
 
-Requirements for each assignment are detailed below.
+Requirements for each of these assignments are detailed below.
 
 ---
 ## Final Exam
 
-As part of the wrap-up of this course, you will take an online exam that serves both as a Code 201 final exam and as a Code 301 entrance exam. On Friday May 27, 2016, you should receive an email containing a URL you can click to start the exam on a 3rd party website (EdRepublic). This exam is not related to the Team Project, and can be taken at any time between the time you receive the link and the due date.
+As part of the wrap-up of this course, you will take an online exam that serves both as a Code 201 final exam and as a Code 301 entrance exam. In Canvas you'll find a link  you can click to start the exam on a 3rd party website (EdRepublic). This exam is not related to the Team Project, and can be taken at any time between the time you receive the link and its deadline on Day 2.
 
 ### Exam Info
 
@@ -72,16 +76,15 @@ As part of the wrap-up of this course, you will take an online exam that serves 
 - Graders will convert your raw score from the exam website into a percentage here in Canvas, with each percentage point worth one point, for a maximum of 100 points in Canvas.
 
 ### Submit
-You have until 8 am of Project Week Day 2 to take the exam and submit a text comment in Canvas that contains the following information:
-- Raw score from the exam website
+Submit a text comment in Canvas that contains the following information:
 - How much time you spent on the exam, total
 - Exam level (-5 = way too easy, 0 = just right, 5 = way too hard)
-- Comments on exam content/questions
-- Comments on the testing process in general
+- Any feedback you may have on exam content/questions
+- Any feedback you may have on the testing process in general
 
 ---
 ## Project Proposal
-Write your project proposal in electronic format. Your proposal may contain photos of hand-drawn content. You can publish your proposal as a README.md in your repo, create a Google doc, submit it as an attachment in Canvas, etc.
+Write your project proposal in electronic format. Your proposal may contain photos of hand-drawn content. You can publish your proposal as a README.md in your repo, create a Google doc, convert your doc to a PDF and submit it as an attachment in Canvas, etc.
 
 Your proposal should contain the following content:
 - Team name
@@ -99,7 +102,7 @@ Suggestion: For your diagrams and wireframes, sketch on sheets of paper or a whi
 Optionally, you can use [**this site**](https://www.bidsketch.com/proposal-resources/proposal-templates/web-design-proposal-template) as a reference, or even as a tool to create your proposal.
 
 ### Submit
-Designate one person on your team to submit your team's proposal in Canvas. That person can submit the proposal document itself or a URL for the document.
+Designate one person on your team to submit your team's proposal in Canvas. That person can submit the proposal document itself or a link to the document.
 
 **Other team members**: In Canvas, submit a comment stating your project's name, team name, and the name of the person who actually submitted the proposal.
 
@@ -113,14 +116,14 @@ The team portion of your Project grade depends partially on git commits and othe
 
 ### Day 1: Launch
 Build a basic scaffold from scratch as a team.
-- Elect a "Launch Driver" to "Drive" (type on a keyboard) during the creation of the initial repo and scaffold code, who will own the following tasks:
-  - Create a new repo in the driver's GitHub account.
-  - In the repo's README.md, include a placeholder for the deployment URL.
+- Elect a "Launch Driver" to "Drive" (type on a keyboard) during the creation of the initial repo and scaffold code, who will own/create the following items:
+  - New team project repo in the driver's GitHub account.
+  - New README.md that includes a placeholder for the deployment URL.
   - User's Guide that contains instructions on how to use the site.
-  - In the scaffold code (e.g., in &quot;index.html&quot;), include the repo's GitHub URL.
-  - Add other team members as collaborators.
-  - Set up GitHub Issues and enter initial "TO DO" items as Issues.
-- While the Launch Driver is driving, other team members should navigate to create initial content in the scaffold code and define the initial set of GitHub Issues. They should stay ahead of the Launch Driver by researching unfamiliar technology such as 3rd party libraries that would provide features needed by the app.
+  - Scaffold code that includes a file (e.g., in &quot;index.html&quot;) that contains the GitHub URL of the driver's team project repo.
+  - Other team members as collaborators in the same repo.
+  - GitHub Issues for the repo, and initial "TO DO" items as Issues.
+- While the Launch Driver is driving, other team members should navigate to create initial content in the scaffold code and define the initial set of GitHub Issues. They should stay ahead of the Launch Driver by researching unfamiliar technology such as 3rd party libraries that could provide features needed by the app.
 
 An example scaffold:
 - /
@@ -155,16 +158,17 @@ Once your project has launched, organize the development efforts of your team.
 
 #### GitHub Issues
 Both team and individual portions of your Project grade depends partially on your consistent and effective use of GitHub Issues.
-- Use GitHub Issues to divide work between team members and to track their tasks.
-- Use GitHub Issues to divide work between team members and to track their tasks.
+- GitHub Issues
   - Break down user stories and other major tasks into Issues, and scope each new Issue to take about 1 to 2 hours to complete.
   - Use labels and milestones as your team sees fit, but leave all newly created issues unassigned.
-  - Assign an issue to yourself when you commit to working on it.
+  - Use Issues to divide work between team members and to track task status.
+  - Assign an Issue to yourself when you make a commitment to own the Issue.
+- Using git with Issues:
   - Once assigned, create a branch using the following naming scheme. For example:
-    - Suppose issue #1 is titled "Add an about.html page".
-    - The branch name would be 1_add_about_page.
-    - Push the commits on your branch to GitHub regularly.
-    - When you have solved the issue, use a commit message such as "fix #1". This will close the issue once the branch is merged into master.
+    - Assume Issue #1 is titled "Add an about.html page".
+    - The branch name could be 1_add_about_page.
+    - Regularly a-c-p on your branch.
+  - When you have solved the Issue, use a commit message such as "Fix #1". This will close the Issue once the branch is merged into master.
   - Create a PR for your branch even if you're not sure whether it'll be merged into master.
   - Ask someone else on your team to review the code in your PR.
   - If changes are required, make them on your branch and push them to GitHub for another review.
