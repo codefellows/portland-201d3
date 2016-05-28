@@ -259,6 +259,8 @@ Please submit the following items in Canvas:
   - Deployed app
 - Description of the biggest challenges faced by your team and how you dealt with them as a team.
 
+---
+
 ## Individual Contribution
 Your individual grade depends on your effort in three major areas:
 
