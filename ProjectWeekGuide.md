@@ -15,13 +15,13 @@ Work with a team to build a new multi-page web application that simulates a real
 - Your web site must be deployed **live** on the Internet every day of Project Week except for Day 1.
 
 ### Timeline
-- Day 1 (Fri May 27)
+- Day 1 (Fri 5/27)
   - Form teams for Project Week and choose a topic.
   - Brainstorm user stories, draw wireframes, & write and submit a formal proposal.
   - Initialize repo and GitHub Issues.
-- Day 2 (Tue): Online final exam (due **8 am**)
+- Day 2 (Tue): Online final exam, due **8 am**
 - Day 2 to 5 (Tue to Fri): Develop your web application; deploy every day.
-- Day 5: Present project (**1:30 pm, Fri June 3**)
+- Day 5 (Fri 6/3): Present project at **1:30 pm
 - Day 5: Submit team and solo Canvas items.
 
 ### Canvas
@@ -77,7 +77,7 @@ You have until 8 am of Project Week Day 2 to take the exam and submit a text com
 - How much time you spent on the exam, total
 - Exam level (-5 = way too easy, 0 = just right, 5 = way too hard)
 - Comments on exam content/questions
-- Comments on the testing process in general, from receiving the email to seeing your score in EdRepublic
+- Comments on the testing process in general
 
 ---
 ## Project Proposal
@@ -161,33 +161,36 @@ Once your project has launched, organize the development efforts of your team:
     - The branch name would be 1_add_about_page.
     - Push the commits on your branch to GitHub regularly.
     - When you have solved the issue, use a commit message such as "fix #1". This will close the issue once the branch is merged into master.
-  - Create a Pull Request (PR) for your branch even if you're not sure whether it'll be merged into master.
+  - Create a PR for your branch even if you're not sure whether it'll be merged into master.
   - Ask someone else on your team to review the code in your PR.
   - If changes are required, make them on your branch and push them to GitHub for another review.
   - Once satisfied, let the **reviewer** merge your PR. Don't merge your own PR.
+  - Develop only on branches; master should contain only working versions of your app.
+  - Develop the "User's Guide."  Start with a copy of your user stories, then expand the document as you develop your code. Include the guide's main *contents* in your web app (perhaps in an "About" page).
+
+General workflow advice:
+- Communicate often with your team members.
+- Test frequently.
 
 ### Technical Requirements
 Your Project grade depends on how well your app integrates and applies concepts covered in this course, and on the extent to which it meets or exceeds the following requirements.
 
-- Works as expected, with no bugs.
+- App works as expected, with no bugs.
+- Your live site and your repo should refer to each other: in your repo's main README.md, add the URL of your live site. In your live site, such as an "About this app" page or a footer link, add the URL of your repo.
 - Three interlinked pages with clear navigation between them.
 - At least two pages accept and process user input.
 - Persists app state between page loads.
 - Deployed live on the Internet
-
 - OOP
   - Encapsulate all data (i.e., variables) and functions in objects, with rare exceptions (e.g., code that initializes objects on app load).
   - Semantic objects design -- objects are appropriately defined to represent distinct models and features ("Group together stuff that belongs together, and in a way that makes sense").
-
 - HTML content
   - Uses semantic tags
   - Contains lists
   - At least one &lt;a&gt; that links to an external site
   - At least one &lt;img&gt; or background-image
   - At least one &lt;video&gt; with at least two &lt;source&gt; child elements, and video content. Alternatively, you may use an &lt;iframe&gt; and embed an external video source such as YouTube, but if so, you must create the video content yourself and upload it to that external source, and in your app's README.md, describe how you uploaded the video. In either case, describe the purpose of your video in your app's README.md
-
-- At least one &lt;canvas&gt; element, with data rendered in the canvas. You can use a charting library, or write your own drawing routines.
-
+- At least one &lt;canvas&gt; element, with data rendered in the canvas. Uses a charting library or your own drawing routines.
 - Layout / styling (borrowed from Lab 9)
   - Create and use a CSS file for all styling. Avoid using style tags or inline styling in your HTML code.
   - Change the position, margin, padding, color, background-color, and opacity of at least one element.
@@ -196,7 +199,6 @@ Your Project grade depends on how well your app integrates and applies concepts 
   - Change at least one element whose default display type is "inline", and make its display type "block".
   - Use at least one font from a CDN (such as a Google font).
   - Use colors from a color theme, such as one of the themes shown HERE or HERE (or come up with your own theme), and color at least half of your elements using colors from the theme. You can also use colors not included in the theme.
-
 - CSS animations (borrowed from Lab 14)
   - At least 3 DOM elements must have CSS animations (such as transitions, fade in/out the page or a section(s), slide the page or a section(s) in/out, rotate elements in 2-D, rotate elements in 3-D, etc.), and each animation must be of a different type (e.g., each animation must affect a different CSS property).
   - For at least one of your animations, use three or more @keyframe "points" to repeat an animation, and use "alternate" as the animation direction.
@@ -204,6 +206,14 @@ Your Project grade depends on how well your app integrates and applies concepts 
 
 #### Extra Credit
 - [+3 points] Research and apply mobile-first and responsive design to your web app.
+
+### Present
+All team members must contribute to the presentation/live demo of your app on Day 5.
+- Plan ahead and decide which team member will cover which aspects of the app.
+- Choose one person to introduce the app: Describe its purpose, user stories, and how the app addresses the user stories.
+- Each team member must help present the live (web browser) demo. Show how your app is generally useful and functional.
+- Each team member must help describe the app's code.
+Please prepare for a 30-minute session for you team -- 15 to 20 minutes for your presentation, and the remainder of the half hour for questions from your audience.
 
 ### Submit
 Please submit the following items in Canvas:
@@ -215,14 +225,7 @@ Please submit the following items in Canvas:
 - Description of the biggest challenges faced by your team and how you dealt with them as a team.
 
 ## Individual Contribution
-All team members must contribute to the presentation/live demo of your app on Day 5. Your **individual** portion of your project grade depends on your participation as a presenter.
-
-- Plan ahead and decide which team member will cover which aspects of the app.
-- Choose one person to introduce the app: Describe its purpose, user stories, and how the app addresses the user stories.
-- Each team member must help present the live (web browser) demo.
-- Each team member must help describe the app's code.
-
-Please prepare for a 30-minute session for you team -- 15 to 20 minutes for your presentation, and the remainder of the half hour for questions from your audience.
+Even though the project presentation is a team effort, the **individual** portion of your project grade depends in part on your participation as a presenter.
 
 ### Submit
 Please submit the following items in Canvas:
@@ -284,16 +287,6 @@ Your team and individual grade depends in part on your consistent and effective 
 - Use concise, meaningful git commit messages.
 - Keep sandbox code organized and under version control.
 
-### General Workflow Advice
-- Communicate often with your team members.
-- Develop only on branches; master should contain only working versions of your app.
-- Deploy at least once per day, and verify the deployed site.
-- Test frequently.
-
-### Documentation
-- Your website and repo should refer to each other. In your repo's main README.md, add the URL of your live site. In your app, such as an "About this app" page or a footer link, add the URL of your repo.
-- As your develop your app, its features will begin to stabilize. Create a "User's Guide" in parallel with your code. The "User's Guide" is for users to learn about your app and how to use it. Start with a copy of your user stories, then expand the document as you develop your code. Include the guide's content in your web app (perhaps in an "About" page).
-
 ### Coding Usage and Style Requirements
 #### General Coding Requirements
 - Works as expected with no bugs
@@ -353,7 +346,7 @@ Your individual grade depends on your effort in these areas:
 - Use AJAX to retrieve JSON or XML data. Write a higher order function (HOF) that makes the AJAX call. To use the HOF, pass a "next" function to it. The HOF should make the AJAX request and specify `next(data)` as the AJAX callback. `next()` should process `data`. You might have your `next` function call a VIEW function to display the data. The HOF itself deals with data, so it should be in a MODEL JavaScript file.
 - Functional-programming: Use array methods, higher-order functions, and at least one closure.
 - Persist your app's state using WebSQL or other database (if you do the extra credit item where you persist data in a server-side database, you don't need to use a local database). Write middleware that handles CRUD operations on your database.
-- Build a single page app and use client-side routing for at least two routes. Use RESTful routes and route handling.
+
   - Test: Every time the URL string in the browser's URL bar changes to a new route in your app, your app should correctly render the corresponding page. This should happen for any of the following events that cause the URL to change:
       - User event in the viewport (e.g., mouse click or [return] keypress on a nav bar item that has a route for its `href`).
           - User loads a bookmarked URL or types a URL in the URL bar then hits [return]. <-- **OFTEN OVERLOOKED**  Test this case with every route, then debug if needed, before submitting your final app.
