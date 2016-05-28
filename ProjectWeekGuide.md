@@ -19,11 +19,10 @@ Work with a team to build a new multi-page web application that simulates a real
   - Form teams for Project Week and choose a topic.
   - Brainstorm user stories, draw wireframes, & write and submit a formal proposal.
   - Initialize repo and GitHub Issues.
-- Day 1: Online final exam link emailed to students
-- Day 2 to 5 (Tue to Fri): Develop your web application. Deploy each day.
-- Day 5: Present project at **1:30 pm, Fri June 3**.
+- Day 2 (Tue): Online final exam (due **8 am**)
+- Day 2 to 5 (Tue to Fri): Develop your web application; deploy every day.
+- Day 5: Present project (**1:30 pm, Fri June 3**)
 - Day 5: Submit team and solo Canvas items.
-- Day 5: Online final exam due
 
 ### Canvas
 #### Point Allocations and Grading
@@ -73,7 +72,7 @@ As part of the wrap-up of this course, you will take an online exam that serves 
 - Graders will convert your raw score from the exam website into a percentage here in Canvas, with each percentage point worth one point, for a maximum of 100 points in Canvas.
 
 ### Submit
-You have approximately one week to take the exam and submit a text comment in Canvas that contains the following information:
+You have until 8 am of Project Week Day 2 to take the exam and submit a text comment in Canvas that contains the following information:
 - Raw score from the exam website
 - How much time you spent on the exam, total
 - Exam level (-5 = way too easy, 0 = just right, 5 = way too hard)
@@ -144,14 +143,16 @@ An example scaffold:
 
 - js/
   - home-view.js
-  - home-data.js
+  - home-controller.js
+  - home-model.js
   - about-view.js
-  - about-data.js
+  - about-controller.js
+  - about-model.js
 
-## Day 2 thru Day 5: Develop
+### Day 2 thru Day 5: Develop
 
 Once your project has launched, organize the development efforts of your team:
-- Use GitHub Issues to manage and divide up the work between your team members.
+- Use GitHub Issues to manage and divide work between team members
   - Create new issues that'll take approximately 1 to 2 hours to complete.
   - Use labels and milestones as your team sees fit, but leave all newly created issues unassigned.
   - Assign an issue to yourself when you commit to working on it.
@@ -165,7 +166,7 @@ Once your project has launched, organize the development efforts of your team:
   - If changes are required, make them on your branch and push them to GitHub for another review.
   - Once satisfied, let the **reviewer** merge your PR. Don't merge your own PR.
 
-## Technical Requirements
+### Technical Requirements
 Your Project grade depends on how well your app integrates and applies concepts covered in this course, and on the extent to which it meets or exceeds the following requirements.
 
 - Works as expected, with no bugs.
@@ -187,7 +188,7 @@ Your Project grade depends on how well your app integrates and applies concepts 
 
 - At least one &lt;canvas&gt; element, with data rendered in the canvas. You can use a charting library, or write your own drawing routines.
 
-- Layout/styling (borrowed from Lab 9)
+- Layout / styling (borrowed from Lab 9)
   - Create and use a CSS file for all styling. Avoid using style tags or inline styling in your HTML code.
   - Change the position, margin, padding, color, background-color, and opacity of at least one element.
   - Render at least one visible border and set its color, thickness, and border-radius.
@@ -204,10 +205,16 @@ Your Project grade depends on how well your app integrates and applies concepts 
 #### Extra Credit
 - [+3 points] Research and apply mobile-first and responsive design to your web app.
 
+### Submit
+Please submit the following items in Canvas:
+- URLs
+  - Final PR
+  - GitHub Issues
+  - User's Guide
+  - Deployed app
+- Description of the biggest challenges faced by your team and how you dealt with them as a team.
+
 ## Individual Contribution
-
-[Day 5, 1:30 pm]
-
 All team members must contribute to the presentation/live demo of your app on Day 5. Your **individual** portion of your project grade depends on your participation as a presenter.
 
 - Plan ahead and decide which team member will cover which aspects of the app.
@@ -217,29 +224,21 @@ All team members must contribute to the presentation/live demo of your app on Da
 
 Please prepare for a 30-minute session for you team -- 15 to 20 minutes for your presentation, and the remainder of the half hour for questions from your audience.
 
-## Canvas Item: Project Teamwork
-[Due Day 5, 11:59 pm]
-
-Below are lists of items to submit for each of those assignments:
-
-### Team Portion
-- URLs
-  - User Guide
-  - Deployed app
-  - GitHub Issues
-  - Final PR
-- Description of the biggest challenges faced by your team and how you dealt with them as a team.
-
-### Individual Portion
+### Submit
+Please submit the following items in Canvas:
 - URLs
   - Your GitHub PRs
   - Your git commits
-  - Answers to these questions:
-    - Roughly how many hours total did you spend on this project?
-    - What were the biggest challenges you faced as an individual, and how did you dealt with them?
-    - What technical skills did you gain or improve significantly?
-    - What non-technical things did you learn (e.g., teamwork, project management)?
-    - What was most enjoyable/rewarding?
+- Describe your individual contributions to the team and project.
+- Share links to commits or Pull Requests that demonstrate your contributions.
+- Answers to these questions:
+  - Roughly how many hours total did you spend on this project?
+  - What were the biggest challenges you faced as an individual, and how did you dealt with them?
+  - What technical skills did you gain or improve significantly?
+  - What non-technical things did you learn (e.g., teamwork, project management)?
+  - What are you most proud of?
+  - What was most enjoyable/rewarding?
+  - What would have done differently ("lessons learned")?
 
 ---
 ---
@@ -264,15 +263,6 @@ Below are lists of items to submit for each of those assignments:
 On the last day of project week, present your project as a team in front of the class. Your level of participation and your presentation quality will contribute to your grade.
 - Explain your project's problem domain and your team's solution.
 - Explain the challenges that arose during project week and how your team overcame them.
-
-### Submit
-Please submit this Canvas assignment with answers to the following questions after your team's presentation.
-- Describe your individual contributions to the team and project.
-- Share links to commits or Pull Requests that demonstrate your contributions.
-- Answers to these questions:
-  - What are you most proud of?
-  - What would have done differently?
-  - What lessons did you learn from this experience?
 
 ---
 ---
