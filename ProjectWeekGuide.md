@@ -19,11 +19,11 @@ Work with a team to build a new multi-page web application that simulates a real
   - Form teams for Project Week and choose a topic.
   - Brainstorm user stories, draw wireframes, & write and submit a formal proposal.
   - Initialize repo and GitHub Issues.
-  - Submit "Project Status Report #1" in Canvas, due **11:59pm**
+  - Submit "Project Status Report #1" in Canvas, due **11:59 pm**
 - Day 2 (Tue): Online final exam, due **8 am**
 - Day 2 to 5 (Tue to Fri):
   - Develop your web application; deploy every day.
-  - Submit Project Status Reports in Canvas, due **11:59pm every day**
+  - Submit Project Status Reports in Canvas, due **11:59 pm every day**
 - Day 5 (Fri 6/3)
   - Present project at **1:30 pm**
   - Submit "Teamwork" and "Individual Contribution" Canvas items.
@@ -65,10 +65,10 @@ Requirements for each of these assignments are detailed below.
 ---
 ## Final Exam
 
-As part of the wrap-up of this course, you will take an online exam that serves both as a Code 201 final exam and as a Code 301 entrance exam. In Canvas you'll find a link  you can click to start the exam on a 3rd party website (EdRepublic). This exam is not related to the Team Project, and can be taken at any time between the time you receive the link and its deadline on Day 2.
+As part of the wrap-up of this course, you will take an online exam that serves both as a Code 201 final exam and as a Code 301 entrance exam. In Canvas you'll find a link  you can click to start the exam on a 3rd party website (EdRepublic).
 
 ### Exam Info
-
+- The exam is not direclty related to the Team Project, and can be taken at any time before its deadline on Day 2.
 - The exam is open book/open laptop and self-administered (you can take the exam on campus or at home, etc.), but you should do the exam on your own.
 - No re-takes of the exam or of any specific exam questions are allowed, so please double-check each answer before you submit it.
 - While you take the exam, be careful not to click "back" in the browser window; doing so will reduce the maximum possible score for the exam question you just answered.
@@ -156,25 +156,28 @@ An example scaffold:
 
 Once your project has launched, organize the development efforts of your team.
 
-#### GitHub Issues
-Both team and individual portions of your Project grade depends partially on your consistent and effective use of GitHub Issues.
+#### GitHub, GitHub Issues, and git
+Both team and individual portions of your Project grade depend (partially) on your consistent and effective use of git, GitHub, and GitHub Issues.
+
 - GitHub Issues
   - Break down user stories and other major tasks into Issues, and scope each new Issue to take about 1 to 2 hours to complete.
   - Use labels and milestones as your team sees fit, but leave all newly created issues unassigned.
-  - Use Issues to divide work between team members and to track task status.
-  - Assign an Issue to yourself when you make a commitment to own the Issue.
+  - Use Issues to divide work between team members and to track task status. Spread the code development workload evenly between team members in JS, HTML, and CSS. Share driving/nagivating, and make sure a fair share of git commits are under each member's github username for all three languages (JS, HTML, CSS). **JS code** carries the most weight in determining your grade.
+- Assign an Issue to yourself when you make a commitment to own the Issue.
 - Using git with Issues:
   - Once assigned, create a branch using the following naming scheme. For example:
     - Assume Issue #1 is titled "Add an about.html page".
     - The branch name could be 1_add_about_page.
-    - Regularly a-c-p on your branch.
+  - Regularly a-c-p on your branch.
   - When you have solved the Issue, use a commit message such as "Fix #1". This will close the Issue once the branch is merged into master.
   - Create a PR for your branch even if you're not sure whether it'll be merged into master.
   - Ask someone else on your team to review the code in your PR.
   - If changes are required, make them on your branch and push them to GitHub for another review.
   - Once satisfied, let the **reviewer** merge your PR. Don't merge your own PR.
   - Keep Issues updated as your make progress in your project.
-- Develop only on branches; master should contain only working versions of your app.
+- Develop only on branches; master should contain only working versions of your app. Consistently use development branches, PRs, and merges.
+- Use concise, meaningful git commit messages.
+- Keep sandbox code organized and under version control as well. **+2 extra credit** for doing this well.
 - Develop the "User's Guide." Start with a copy of your user stories, then expand the document as you develop your code. Include the guide's main *contents* in your web app (perhaps in an "About" page).
 
 General workflow advice:
@@ -189,7 +192,7 @@ Your Project grade depends on how well your app integrates and applies concepts 
 - Three interlinked pages with clear navigation between them.
 - At least two pages accept and process user input.
 - Deployed live on the Internet
-- Deployed app and your repo refer to each other: your repo's main README.md includes the URL of your live site. Your live site, has a page or footer link that shows the URL to your repo.
+- Deployed app and your repo refer to each other: your repo's main README.md includes a link to your live site. Your live site has a page or footer that contains a link to your repo.
 - Code comments: concise comments throughout; explain high-level (conceptual) purpose of each file and each block of code (e.g., objects, methods, global data in JS, DOM sub-structures in HTML, and property blocks or groups of property blocks in CSS).
 - In your final version, remove these items from your web app:
   - Files that are irrelevant
@@ -202,7 +205,7 @@ Your Project grade depends on how well your app integrates and applies concepts 
 - Clear &amp; readable: Must pass the course's standard .eslintrc and use semantically meaningful variable names and function names.
 - Efficient
   - Remove source code redundancy using techniques such as OOP. Apply DRY principles.
-  - Remove computational redundacy (e.g., cache computed results if the results are re-used, such as: if a DOM query always finds the same DOM element(s), make sure the DOM query runs only once, then store the result in a variable, and use only the variable from that point onward.
+  - Remove computational redundacy. Cache computed results if the results are re-used; e.g., If a DOM query always finds the same DOM element(s), run the query only once and store the result in a variable, and use the variable from that point onward.
 - Encapsulate all data (i.e., variables) and functions in objects, with rare exceptions (e.g., code that initializes objects on app load).
 - Semantic object design: objects are appropriately defined to represent distinct models and features ("Group together stuff that belongs together, and in a way that makes sense").
 
@@ -233,7 +236,7 @@ Your Project grade depends on how well your app integrates and applies concepts 
 #### Extra Credit
 The following items are for extra credit in the team portion of your Project grade, and worth 2 points each, unless otherwise specified:
 - Research and apply mobile-first and responsive design to your web app.
-- Include an &lt;audio&gt; element and use .mp3 format for your media file. See the [&lt;audio&gt; manual page](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio).
+- Include an &lt;audio&gt; element and use the .mp3 format for your media file. See the [&lt;audio&gt; manual page](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio).
 - Use JavaScript's built-in .bind() to let an object's method work correctly as a callback for a user event.
 - Let users register on your website with a username and password, and require registered users to log in to access "restricted" content in your site. Use client-side authentication.
 - Persist at least part of your app's state on a server such as Heroku or Firebase.
@@ -257,76 +260,44 @@ Please submit the following items in Canvas:
 - Description of the biggest challenges faced by your team and how you dealt with them as a team.
 
 ## Individual Contribution
-Even though the project presentation is a team effort, the *individual* portion of your Project grade depends partially on your participation as a presenter.
+Your individual grade depends on your effort in three major areas:
 
-**IMPORTANT NOTE**: If you spend most of your time just navigating, you won't have a fair share of git commits under *your* github username, and will lose a **significant** percentage of points from your Individual Contribution grade. Make sure you have a fair share of commits for all three languages (HTML, CSS, and JS).
+### Collaboration
+Overall team collaboration. Ways you can show this (not all are required, but the more you do, the better):
+- Show up on campus and work productively with other team members.
+- Do project/team management.
+- Find or create tools that increase your team's productivity. E.g., task management, communication tools, text editors, testing tools, features in Chrome Developer Tools, etc.
+- Use well-named git branches and meaningful git commit messages.
+- Write and run manual or automated tests for key parts of your app.
+- Test frequently and make frequent git a-c-p's, PRs, and merges to reduce merge conflict problems.
+- Debug code not writen by you.
+- Refactor code and add code comments for code written by other team members.
+- Share final presentation tasks. Though your project presentation will be a team effort and will affect your team grade, there is also an *individual* component that is determined by your participation as a presenter.
+
+### Project-level contributions
+Effort in one or more of the following areas (again, not all are required; the following lists are just for you to see which ways you can contribute to the team, outside of developing code):
+- Test documents
+- Ideas for app features
+- User stories
+- User's Guide
+- README.md files
+- App architecture
+- Explore live data sources, APIs, libraries, frameworks, and new coding language features.
+- UI/UX design
+- Artwork/media file creation/processing
+- Data pre-processing
+- Server features needed by your app (if you do the extra credit)
+
+### Coding
+**IMPORTANT NOTE**: If you spend most of your time just navigating, you won't have a fair share of git commits under *your* github username, and will lose a **significant** percentage of points from your Individual Contribution grade. Be sure to make significant contributions and commits in all three languages (HTML, CSS, JS).
 
 ### Submit
 - Share links to commits and PRs that show your individual effort.
 - Answers to these questions:
   - Roughly how many hours total did you spend on this project?
   - What were the biggest challenges you faced as an individual, and how did you dealt with them?
-  - What technical skills did you gain or improve significantly?
   - What non-technical things did you learn (e.g., teamwork, project management)?
-  - What are you most proud of?
+  - What technical skills did you gain or improve significantly?
   - What was most enjoyable/rewarding?
-  - What would have done differently ("lessons learned")?
-
----
----
-# Content below is work-in-progress
----
----
-
-#### General Technical Merit
-- Proper use of HTML
-  - Clear, readable, and efficient structure
-  - Uses semantic markup whenever possible
-- Proper use of CSS
-  - Clear, readable, and efficient styles
-  - Responsive layout on various screen sizes like desktop and mobile
-- Proper use of JavaScript
-  - Clear, readable, and efficient code
-  - Uses domain models to encapsulate data and behavior -- OOP is required !
-  - Contains no unnecessary code
-
----
----
-From 301's Guide
----
----
-
-## Day 2 through Day 5: Develop
-
-### Git Workflow
-Your team and individual grade depends partially on your consistent and effective use of git, including the following aspects:
-- Spread the code development workload evenly between team members in JS, HTML, and CSS. Share driving/nagivating, and make sure a fair share of git commits are under each member's github username for all three languages (JS, HTML, CSS). JS code carries the most weight.
-- Consistently use development branches, PRs, and merges.
-- Use concise, meaningful git commit messages.
-- Keep sandbox code organized and under version control.
-
-### Individual Contribution and Grade
-Your individual grade depends on your effort in these areas:
-- General "app level" non-JS contributions: CSS and HTML code, and effort in one or more of the following areas:
-  - Ideas for app features
-  - User stories
-  - User's Guide
-  - Test documents
-  - README.md files
-  - App architecture
-  - Explore live data sources, APIs, libraries, frameworks, and new coding language features.
-  - UI/UX design
-  - Artwork/media file creation/processing
-  - Data pre-processing
-  - Server features needed by your app
-  - Contributions in JS code for domain modeling, flow control, logic, and computation
-- Overall team collaboration. Ways to show this:
-  - Show up on campus and work productively with other team members.
-  - Use well-named git branches and meaningful git commit messages.
-  - Test frequently and make frequent git a-c-p's, PRs, and merges to reduce merge conflict problems.
-  - Write and run automated tests for at least parts of your app.
-  - Refactor code and add code comments for code written by other team members.
-  - Debug code not writen by you.
-  - Share final presentation tasks.
-  - Do project/team management.
-  - Create, configure, and/or enhance tools that increase your team's productivity.
+  - What are you most proud of?
+  - What would you have done differently (what were the "lessons learned")?
