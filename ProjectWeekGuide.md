@@ -157,7 +157,7 @@ Once your project has launched, organize the development efforts of your team.
 Both team and individual portions of your Project grade depends partially on your consistent and effective use of GitHub Issues.
 - Use GitHub Issues to divide work between team members and to track their tasks.
 - Use GitHub Issues to divide work between team members and to track their tasks.
-  - Create new issues that'll take approximately 1 to 2 hours to complete.
+  - Break down user stories and other major tasks into Issues, and scope each new Issue to take about 1 to 2 hours to complete.
   - Use labels and milestones as your team sees fit, but leave all newly created issues unassigned.
   - Assign an issue to yourself when you commit to working on it.
   - Once assigned, create a branch using the following naming scheme. For example:
@@ -181,12 +181,12 @@ General workflow advice:
 Your Project grade depends on how well your app integrates and applies concepts covered in this course, and on the extent to which it meets or exceeds the following requirements.
 
 #### General Coding Requirements
-- Your live deployment and your repo should refer to each other: in your repo's main README.md, add the URL of your live site. In your live site, such as an "About this app" page or a footer link, add the URL of your repo.
 - App works as expected, with no bugs.
-- Code comments: concise comments throughout; explain high-level (conceptual) purpose of each file and each block of code (e.g., objects, methods, global data in JS, DOM sub-structures in HTML, and property blocks or groups of property blocks in CSS).
 - Three interlinked pages with clear navigation between them.
 - At least two pages accept and process user input.
 - Deployed live on the Internet
+- Deployed app and your repo refer to each other: your repo's main README.md includes the URL of your live site. Your live site, has a page or footer link that shows the URL to your repo.
+- Code comments: concise comments throughout; explain high-level (conceptual) purpose of each file and each block of code (e.g., objects, methods, global data in JS, DOM sub-structures in HTML, and property blocks or groups of property blocks in CSS).
 - In your final version, remove these items from your web app:
   - Files that are irrelevant
   - "Commented out" code
@@ -287,14 +287,11 @@ Even though the project presentation is a team effort, the *individual* portion 
 
 ---
 ---
-From 301 Guide
+From 301's Guide
 ---
 ---
 
 ## Day 2 through Day 5: Develop
-
-### GitHub Issues
-- Break down user stories and other major tasks into Issues, and scope each Issue to take about 2 hours to complete.
 
 ### Git Workflow
 Your team and individual grade depends partially on your consistent and effective use of git, including the following aspects:
