@@ -151,8 +151,12 @@ An example scaffold:
 
 ### Day 2 thru Day 5: Develop
 
-Once your project has launched, organize the development efforts of your team:
-- Use GitHub Issues to manage and divide work between team members
+Once your project has launched, organize the development efforts of your team.
+
+#### GitHub Issues
+Both team and individual portions of your Project grade depends partially on your consistent and effective use of GitHub Issues.
+- Use GitHub Issues to divide work between team members and to track their tasks.
+- Use GitHub Issues to divide work between team members and to track their tasks.
   - Create new issues that'll take approximately 1 to 2 hours to complete.
   - Use labels and milestones as your team sees fit, but leave all newly created issues unassigned.
   - Assign an issue to yourself when you commit to working on it.
@@ -165,8 +169,9 @@ Once your project has launched, organize the development efforts of your team:
   - Ask someone else on your team to review the code in your PR.
   - If changes are required, make them on your branch and push them to GitHub for another review.
   - Once satisfied, let the **reviewer** merge your PR. Don't merge your own PR.
-  - Develop only on branches; master should contain only working versions of your app.
-  - Develop the "User's Guide."  Start with a copy of your user stories, then expand the document as you develop your code. Include the guide's main *contents* in your web app (perhaps in an "About" page).
+  - Keep Issues updated as your make progress in your project.
+- Develop only on branches; master should contain only working versions of your app.
+- Develop the "User's Guide." Start with a copy of your user stories, then expand the document as you develop your code. Include the guide's main *contents* in your web app (perhaps in an "About" page).
 
 General workflow advice:
 - Communicate often with your team members.
@@ -175,23 +180,40 @@ General workflow advice:
 ### Technical Requirements
 Your Project grade depends on how well your app integrates and applies concepts covered in this course, and on the extent to which it meets or exceeds the following requirements.
 
+#### General Coding Requirements
+- Your live deployment and your repo should refer to each other: in your repo's main README.md, add the URL of your live site. In your live site, such as an "About this app" page or a footer link, add the URL of your repo.
 - App works as expected, with no bugs.
-- Your live site and your repo should refer to each other: in your repo's main README.md, add the URL of your live site. In your live site, such as an "About this app" page or a footer link, add the URL of your repo.
+- Code comments: concise comments throughout; explain high-level (conceptual) purpose of each file and each block of code (e.g., objects, methods, global data in JS, DOM sub-structures in HTML, and property blocks or groups of property blocks in CSS).
 - Three interlinked pages with clear navigation between them.
 - At least two pages accept and process user input.
-- Persists app state between page loads.
 - Deployed live on the Internet
-- OOP
-  - Encapsulate all data (i.e., variables) and functions in objects, with rare exceptions (e.g., code that initializes objects on app load).
-  - Semantic objects design -- objects are appropriately defined to represent distinct models and features ("Group together stuff that belongs together, and in a way that makes sense").
-- HTML content
-  - Uses semantic tags
-  - Contains lists
-  - At least one &lt;a&gt; that links to an external site
-  - At least one &lt;img&gt; or background-image
-  - At least one &lt;video&gt; with at least two &lt;source&gt; child elements, and video content. Alternatively, you may use an &lt;iframe&gt; and embed an external video source such as YouTube, but if so, you must create the video content yourself and upload it to that external source, and in your app's README.md, describe how you uploaded the video. In either case, describe the purpose of your video in your app's README.md
+- In your final version, remove these items from your web app:
+  - Files that are irrelevant
+  - "Commented out" code
+  - Code comments that are irrelevant
+  - Unused code (e.g. functions that are never called, unused variables, CSS rules not applied anywhere, etc.)
+- Persist app state between page loads.
+
+#### JavaScript
+- Clear &amp; readable: Must pass the course's standard .eslintrc and use semantically meaningful variable names and function names.
+- Efficient
+  - Remove source code redundancy using techniques such as OOP. Apply DRY principles.
+  - Remove computational redundacy (e.g., cache computed results if the results are re-used, such as: if a DOM query always finds the same DOM element(s), make sure the DOM query runs only once, then store the result in a variable, and use only the variable from that point onward.
+- Encapsulate all data (i.e., variables) and functions in objects, with rare exceptions (e.g., code that initializes objects on app load).
+- Semantic object design: objects are appropriately defined to represent distinct models and features ("Group together stuff that belongs together, and in a way that makes sense").
+
+#### HTML
+- Readable: good indentation, good organization exhibited in DOM stucture.
+- Semantic (meaningful) tags. If a tag's name is not descriptive (e.g., &lt;div&gt;) but is important semantically, use a `class`, `id`, or write an HTML comment that explains the tag's purpose.
+- Contains lists
+- At least one &lt;a&gt; that links to an external site
+- At least one &lt;img&gt; or background-image
+- At least one &lt;video&gt; with at least two &lt;source&gt; child elements, and video content. Alternatively, you may use an &lt;iframe&gt; and embed an external video source such as YouTube, but if so, you must create the video content yourself and upload it to that external source, and in your app's README.md, describe how you uploaded the video. In either case, describe the purpose of your video in your app's README.md
 - At least one &lt;canvas&gt; element, with data rendered in the canvas. Uses a charting library or your own drawing routines.
-- Layout / styling (borrowed from Lab 9)
+
+#### CSS
+- Clear &amp; readable: semantically meaningful class names and id names. Proper indentation. No syntax errors.
+- Layout / styling (borrowed from Lab 9):
   - Create and use a CSS file for all styling. Avoid using style tags or inline styling in your HTML code.
   - Change the position, margin, padding, color, background-color, and opacity of at least one element.
   - Render at least one visible border and set its color, thickness, and border-radius.
@@ -205,7 +227,12 @@ Your Project grade depends on how well your app integrates and applies concepts 
   - Make at least one of your animations repeat an "infinite" number of times.
 
 #### Extra Credit
-- [+3 points] Research and apply mobile-first and responsive design to your web app.
+The following items are for extra credit in the team portion of your Project grade, and worth 2 points each, unless otherwise specified:
+- Research and apply mobile-first and responsive design to your web app.
+- Include an &lt;audio&gt; element and use .mp3 format for your media file. See the [&lt;audio&gt; manual page](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio).
+- Use JavaScript's built-in .bind() to let an object's method work correctly as a callback for a user event.
+- Let users register on your website with a username and password, and require registered users to log in to access "restricted" content in your site. Use client-side authentication.
+- Persist at least part of your app's state on a server such as Heroku or Firebase.
 
 ### Presentation
 On the final day of Project Week, present your project as a team in front of the class; each team member must participate.
@@ -226,7 +253,11 @@ Please submit the following items in Canvas:
 - Description of the biggest challenges faced by your team and how you dealt with them as a team.
 
 ## Individual Contribution
-Even though the project presentation is a team effort, the **individual** portion of your project grade depends in part on your participation as a presenter. You level of particip- Share links to commits or Pull Requests that demonstrate your contributions.
+Even though the project presentation is a team effort, the *individual* portion of your Project grade depends partially on your participation as a presenter.
+
+- Share links to commits and PRs that show your individual effort.
+  **IMPORTANT NOTE**: If you spend most of your time just navigating, you won't have a fair share of git commits under *your* github username, and will lose a **significant** percentage of points on your individual grade. Make sure you have a fair share of commits for all three languages (HTML, CSS, and JS).
+
 - Answers to these questions:
   - Roughly how many hours total did you spend on this project?
   - What were the biggest challenges you faced as an individual, and how did you dealt with them?
@@ -254,7 +285,6 @@ Even though the project presentation is a team effort, the **individual** portio
   - Uses domain models to encapsulate data and behavior -- OOP is required !
   - Contains no unnecessary code
 
-
 ---
 ---
 From 301 Guide
@@ -262,45 +292,16 @@ From 301 Guide
 ---
 
 ## Day 2 through Day 5: Develop
+
 ### GitHub Issues
-Your team and individual grade will depend in part on your consistent and effective use of GitHub Issues.
 - Break down user stories and other major tasks into Issues, and scope each Issue to take about 2 hours to complete.
-- When applicable, use a git commit message to close an Issue.
-- Keep Issues updated as your make progress in your project.
 
 ### Git Workflow
-Your team and individual grade depends in part on your consistent and effective use of git, including the following aspects:
+Your team and individual grade depends partially on your consistent and effective use of git, including the following aspects:
 - Spread the code development workload evenly between team members in JS, HTML, and CSS. Share driving/nagivating, and make sure a fair share of git commits are under each member's github username for all three languages (JS, HTML, CSS). JS code carries the most weight.
 - Consistently use development branches, PRs, and merges.
 - Use concise, meaningful git commit messages.
 - Keep sandbox code organized and under version control.
-
-### Coding Usage and Style Requirements
-#### General Coding Requirements
-- Works as expected with no bugs
-- Code comments: use concise comments throughout, and explain the high-level (conceptual) purpose of each file and the purpose of each block of code (e.g., functions and objects in JS, DOM sub-structures in HTML, and property blocks or groups of property blocks in CSS).
-- In your final version, remove these components:
-  - Unused code (e.g. functions that are never called, unused variables, CSS rules not applied anywhere, etc.)
-  - Commented out code
-  - Code comments that are obsolete/irrelevant
-  - Documentation files, images, etc. that are obsolete/irrelevant
-
-#### HTML Requirements
-- Semantic: Use meaningful HTML tags. If a tag's name is not descriptive (e.g., "div"), but is important semantically and isn't self-explanatory, use a `class`, `id`, or write an HTML comment that explains the tag's purpose.
-- Readable: Good indentation, good organization in DOM's stucture
-- Efficient: Remove redundacy -- repeated DOM structures should be templated and/or programmatically created using JS.
-
-#### CSS Requirements
-- Clear and readable: Use semantically meaningful class names and id names. Use proper indentation. Fix syntax errors.
-- Well-organized file structure: use SMACCS principals.
-- Efficient: minimize redundancy of CSS properties. Pull common properties into shared CSS code blocks or separate classes.
-- Good layout across various screen sizes such as mobile and desktop. Use containers and percentages, a fluid grid, flexbox, and/or media queries to acheive responsivenss.
-
-#### JS Requirements
-- Clear, readable: Must pass the course's standard .eslintrc and use semantically meaningful variable and function names.
-- Efficient
-  - Remove source code redundancy using techniques such as FP, OOP, and/or middleware. Apply DRY principles.
-    - Remove computational redundacy, i.e., cache computed results if results are re-used. This is to reduce the overall compute effort of your app. Example: If a DOM query always finds the same DOM element(s), make sure the query runs only once, then store the result in a variable, and use only the variable from that point onward.
 
 ### Individual Contribution and Grade
 Your individual grade depends on your effort in these areas:
@@ -327,27 +328,3 @@ Your individual grade depends on your effort in these areas:
   - Share final presentation tasks.
   - Do project/team management.
   - Create, configure, and/or enhance tools that increase your team's productivity.
-
-**IMPORTANT NOTE**: If you spend most of your time just navigating, you won't have a fair share of git commits under *your* github username, and will lose a **significant** percentage of points on your individual grade. Make sure you have a fair share of commits for all three languages (HTML, CSS, and JS).
-
-### Technical Requirements
-- Use AJAX to retrieve JSON or XML data. Write a higher order function (HOF) that makes the AJAX call. To use the HOF, pass a "next" function to it. The HOF should make the AJAX request and specify `next(data)` as the AJAX callback. `next()` should process `data`. You might have your `next` function call a VIEW function to display the data. The HOF itself deals with data, so it should be in a MODEL JavaScript file.
-- Functional-programming: Use array methods, higher-order functions, and at least one closure.
-- Persist your app's state using WebSQL or other database (if you do the extra credit item where you persist data in a server-side database, you don't need to use a local database). Write middleware that handles CRUD operations on your database.
-
-  - Test: Every time the URL string in the browser's URL bar changes to a new route in your app, your app should correctly render the corresponding page. This should happen for any of the following events that cause the URL to change:
-      - User event in the viewport (e.g., mouse click or [return] keypress on a nav bar item that has a route for its `href`).
-          - User loads a bookmarked URL or types a URL in the URL bar then hits [return]. <-- **OFTEN OVERLOOKED**  Test this case with every route, then debug if needed, before submitting your final app.
-          - Use MVC components that are loosely coupled, semantically named/labelled, and are well-documented as MVC in code comments.
-          - Deploy to a public web server, including a server-side app that authenticates to a 3rd party server (such as FB, Yelp, or GitHub). You must use a 3rd party server that is significantly relevant to your project.  You can use a server such as a weather information server, Yelp, Google (e.g., maps or streetview), Facebook, etc.
-
-### Extra Credit
-You can earn extra credit in your project by adding one or more of the following features to your project's code. Each item is worth +1 unless otherwise noted.
-- Persist at least some of your app's data in two or more WebSQL tables and make SQLite queries that use joins/relations to filter data.
-- Use a finite state machine that explicitly models the FSM using named inputs (events) and named states.
-- Include an &lt;audio&gt; element and use .mp3 format for your media file. See the [&lt;audio&gt; manual page](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio).
-- Use JavaScript's built-in .bind() and .apply() methods, and answer these questions in your submission:
-  - The methods belong to what kind of object? Does each object have its own copy of the method, or are the methods on the prototype for that object?
-    - How does .apply() differ from .call()?
-    - Let users register on your website with a username and password, and require registered users to log in to access some of your site's data. Use client-side authentication as proof-of-concept [0.25 points], or use server-side authentication [2 points].
-    - [2 points] Persist at least part of your app's state on a server such as Heroku or Firebase.
