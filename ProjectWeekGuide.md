@@ -1,6 +1,7 @@
 # Project Week Guide
 
 For your final project, put together all the concepts you've learned and coding skills you've gained during this course.
+
 Work with a team to build a new multi-page web application that simulates a real-world product, service, or game.
 
 ---
@@ -25,21 +26,29 @@ Work with a team to build a new multi-page web application that simulates a real
 - Day 5: Online final exam due
 
 ### Canvas
-#### Point Allocations
+#### Point Allocations and Grading
 Your "Project Week" grade is worth 30% of your overall grade. The 30% is broken down as follows in terms of maximum possible points.
 - Online Final Exam: 100 points
 - Team Project (i.e., &quot;Project&quot;): 170 points, broken down as follows:
-  - Individual contribution: 75 points
   - Daily status reports (&quot;quizzes&quot; in Canvas) graded on a per-student basis: 5 days x 4 points = 20 points
+  - Individual contribution: 75 points<br>
+    Grading basis:
+    - Links to your git commits and GitHub Pull Requests (PRs) that show your contributions
+    - Your daily presence on campus to collaborate with teammates
+    - Your participation in presenting your project
+
   - Teamwork: 75 points, further broken down as follows:
     - Project proposal: 7.5 points (10% of 75)
-    - Project source code &amp; team presentation: 67.5 points (90% of 75)
+    - Project team effort: 67.5 points (90% of 75)<br>
+      Grading basis:
+      - Project-level activity: Documentation, use of GitHub Issues, branches, PRs, and merges
+      - Technical merit: Web app functionality, UI design, code quality
 
 Project Week points sum to 270, so every set of 9 points is worth 1% of your overall grade.
-Extra credit points will be available for the Project, and can potentially raise your Project Week grade above 30%.
 
+Extra credit points will be available for the Project, and can potentially raise your Project Week grade above 30%.
 #### Assignments
-Four Canvas assignments correspond to the work mentioned above, as shown here:.
+Four Canvas assignments correspond to the work mentioned above, as shown here:
 
 |Canvas Item|Deadline|
 |---|---|
@@ -151,31 +160,34 @@ Once your project has launched, organize the development efforts of your team:
     - The branch name would be 1_add_about_page.
     - Push the commits on your branch to GitHub regularly.
     - When you have solved the issue, use a commit message such as "fix #1". This will close the issue once the branch is merged into master.
-  - Create a Pull Request for your branch even if you're unsure if it'll be merged into master.
-  - Ask someone else on your team to review the code in your Pull Request.
+  - Create a Pull Request (PR) for your branch even if you're not sure whether it'll be merged into master.
+  - Ask someone else on your team to review the code in your PR.
   - If changes are required, make them on your branch and push them to GitHub for another review.
-  - Once satisfied, let the **reviewer** merge your Pull Request. Don't merge your own Pull Request.
-
-...
-
+  - Once satisfied, let the **reviewer** merge your PR. Don't merge your own PR.
 
 ## Technical Requirements
-[Details will be finalized in this section on Friday May 27, 2016.]
+Your Project grade depends on how well your app integrates and applies concepts covered in this course, and on the extent to which it meets or exceeds the following requirements.
 
-Your project grade depends in part on how well you integrate/apply concepts covered in this course, which include the following tasks.
-
-- Create at least three interlinked pages with clear navigation
+- Works as expected, with no bugs.
+- Three interlinked pages with clear navigation between them.
 - At least two pages accept and process user input.
-- Your web site's state must persist between page reloads.
+- Persists app state between page loads.
+- Deployed live on the Internet
+
+- OOP
+  - Encapsulate all data (i.e., variables) and functions in objects, with rare exceptions (e.g., code that initializes objects on app load).
+  - Semantic objects design -- objects are appropriately defined to represent distinct models and features ("Group together stuff that belongs together, and in a way that makes sense").
 
 - HTML content
-  - Semantic tags
-  - Lists
-  - &lt;a&gt; that link to external sites
-  - &lt;img&gt;
-  - &lt;video&gt; with at least two &lt;source&gt; child elements and video content. Alternatively, you may use an &lt;iframe&gt; and embed an external video source such as YouTube, but if so, you must create the video content yourself and upload it to that external source, and in your app's README.md, describe how you uploaded the video. In either case, describe the purpose of your video in your app's README.md
+  - Uses semantic tags
+  - Contains lists
+  - At least one &lt;a&gt; that links to an external site
+  - At least one &lt;img&gt; or background-image
+  - At least one &lt;video&gt; with at least two &lt;source&gt; child elements, and video content. Alternatively, you may use an &lt;iframe&gt; and embed an external video source such as YouTube, but if so, you must create the video content yourself and upload it to that external source, and in your app's README.md, describe how you uploaded the video. In either case, describe the purpose of your video in your app's README.md
 
-- Layout/styling (almost identical to Lab 9's requirements)
+- At least one &lt;canvas&gt; element, with data rendered in the canvas. You can use a charting library, or write your own drawing routines.
+
+- Layout/styling (borrowed from Lab 9)
   - Create and use a CSS file for all styling. Avoid using style tags or inline styling in your HTML code.
   - Change the position, margin, padding, color, background-color, and opacity of at least one element.
   - Render at least one visible border and set its color, thickness, and border-radius.
@@ -184,31 +196,56 @@ Your project grade depends in part on how well you integrate/apply concepts cove
   - Use at least one font from a CDN (such as a Google font).
   - Use colors from a color theme, such as one of the themes shown HERE or HERE (or come up with your own theme), and color at least half of your elements using colors from the theme. You can also use colors not included in the theme.
 
-- OOP
-  - Encapsulate all vars/functions in objects, with few exceptions (e.g., code that initializes objects on app load).
-  - Semantic objects design -- objects are appropriately defined to represent distinct models and features ("Group together stuff that belongs together in a way that makes sense").
-
-- Add at least one &lt;canvas&gt; element, and render data in the canvas. You can use a charting library, or write your own drawing routines.
-- CSS animations, based on Lab 14
+- CSS animations (borrowed from Lab 14)
   - At least 3 DOM elements must have CSS animations (such as transitions, fade in/out the page or a section(s), slide the page or a section(s) in/out, rotate elements in 2-D, rotate elements in 3-D, etc.), and each animation must be of a different type (e.g., each animation must affect a different CSS property).
   - For at least one of your animations, use three or more @keyframe "points" to repeat an animation, and use "alternate" as the animation direction.
   - Make at least one of your animations repeat an "infinite" number of times.
 
 #### Extra Credit
-- [+3 points] Do mobile-first and responsive design.
+- [+3 points] Research and apply mobile-first and responsive design to your web app.
+
+## Individual Contribution
+
+[Day 5, 1:30 pm]
+
+All team members must contribute to the presentation/live demo of your app on Day 5. Your **individual** portion of your project grade depends on your participation as a presenter.
+
+- Plan ahead and decide which team member will cover which aspects of the app.
+- Choose one person to introduce the app: Describe its purpose, user stories, and how the app addresses the user stories.
+- Each team member must help present the live (web browser) demo.
+- Each team member must help describe the app's code.
+
+Please prepare for a 30-minute session for you team -- 15 to 20 minutes for your presentation, and the remainder of the half hour for questions from your audience.
+
+## Canvas Item: Project Teamwork
+[Due Day 5, 11:59 pm]
+
+Below are lists of items to submit for each of those assignments:
+
+### Team Portion
+- URLs
+  - User Guide
+  - Deployed app
+  - GitHub Issues
+  - Final PR
+- Description of the biggest challenges faced by your team and how you dealt with them as a team.
+
+### Individual Portion
+- URLs
+  - Your GitHub PRs
+  - Your git commits
+  - Answers to these questions:
+    - Roughly how many hours total did you spend on this project?
+    - What were the biggest challenges you faced as an individual, and how did you dealt with them?
+    - What technical skills did you gain or improve significantly?
+    - What non-technical things did you learn (e.g., teamwork, project management)?
+    - What was most enjoyable/rewarding?
 
 ---
 ---
 # Content below is work-in-progress
 ---
 ---
-
-Process
-
-### Grading
-Your grade is based on your individual effort and your project's technical merit.
-
-Individual effort is graded based on links to commits and Pull Requests that demonstrate your contributions.
 
 #### General Technical Merit
 - Proper use of HTML
@@ -221,12 +258,6 @@ Individual effort is graded based on links to commits and Pull Requests that dem
   - Clear, readable, and efficient code
   - Uses domain models to encapsulate data and behavior -- OOP is required !
   - Contains no unnecessary code
-- Generally useful and functional
-  - Works as expected with no bugs
-  - Has at least 3 interlinked pages with a clear navigation
-  - Has at least two pages that accept and process user input
-  - State is persisted between page reloads
-  - Deployed live on the Internet
 
 ## Presentation
 
@@ -329,8 +360,6 @@ Your individual grade depends on your effort in these areas:
 **IMPORTANT NOTE**: If you spend most of your time just navigating, you won't have a fair share of git commits under *your* github username, and will lose a **significant** percentage of points on your individual grade. Make sure you have a fair share of commits for all three languages (HTML, CSS, and JS).
 
 ### Technical Requirements
-
-- OOP: Encapsulate all data and functions (exceptions are possible, but get buy-in from an instructor first), and use object constructors and prototypical inheritance where appropriate.
 - Use AJAX to retrieve JSON or XML data. Write a higher order function (HOF) that makes the AJAX call. To use the HOF, pass a "next" function to it. The HOF should make the AJAX request and specify `next(data)` as the AJAX callback. `next()` should process `data`. You might have your `next` function call a VIEW function to display the data. The HOF itself deals with data, so it should be in a MODEL JavaScript file.
 - Functional-programming: Use array methods, higher-order functions, and at least one closure.
 - Persist your app's state using WebSQL or other database (if you do the extra credit item where you persist data in a server-side database, you don't need to use a local database). Write middleware that handles CRUD operations on your database.
@@ -351,35 +380,3 @@ You can earn extra credit in your project by adding one or more of the following
     - How does .apply() differ from .call()?
     - Let users register on your website with a username and password, and require registered users to log in to access some of your site's data. Use client-side authentication as proof-of-concept [0.25 points], or use server-side authentication [2 points].
     - [2 points] Persist at least part of your app's state on a server such as Heroku or Firebase.
-
-## Day 5, 1:30 pm: Present
-All team members must contribute to the presentation/live demo of your app on Day 5. Your **individual** portion of your project grade depends on your participation as a presenter.
-- Plan ahead and decide which team member will cover which aspects of the app.
-- Choose one person to introduce the app: Describe its purpose, user stories, and how the app addresses the user stories.
-- Each team member must help present the live demo.
-- Each team member must help present the app's code.
-
-Please prepare for a 30-minute session for you team -- 15 to 20 minutes for your presentation, and the remainder of the half hour for questions from your audience.
-
-## Day 5, 11:59 pm: Submit
-In Canvas, you'll find an assignment that corresponds to the team portion of your project grade, and an assignment for your individual portion. Below are lists of items to submit for each of those assignments:
-
-### Team Portion
-- URLs
-  - User Guide
-  - Deployed app
-  - GitHub Issues
-  - Final PR
-- Description of the biggest challenges faced by your team and how you dealt with them as a team.
-
-### Individual Portion
-- URLs
-  - Your GitHub PRs
-  - Your git commits
-  - Answers to these questions:
-    - Roughly how many hours total did you spend on this project?
-    - What were the biggest challenges you faced as an individual, and how did you dealt with them?
-    - What technical skills did you gain or improve significantly?
-    - What non-technical things did you learn (e.g., teamwork, project management)?
-    - What was most enjoyable/rewarding?
-              
