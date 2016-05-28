@@ -207,13 +207,14 @@ Your Project grade depends on how well your app integrates and applies concepts 
 #### Extra Credit
 - [+3 points] Research and apply mobile-first and responsive design to your web app.
 
-### Present
-All team members must contribute to the presentation/live demo of your app on Day 5.
+### Presentation
+On the final day of Project Week, present your project as a team in front of the class; each team member must participate.
 - Plan ahead and decide which team member will cover which aspects of the app.
 - Choose one person to introduce the app: Describe its purpose, user stories, and how the app addresses the user stories.
 - Each team member must help present the live (web browser) demo. Show how your app is generally useful and functional.
+- Explain challenges that arose during Project Week and how your team overcame them.
 - Each team member must help describe the app's code.
-Please prepare for a 30-minute session for you team -- 15 to 20 minutes for your presentation, and the remainder of the half hour for questions from your audience.
+- Please prepare for a 30-minute session for you team -- 15 to 20 minutes for your presentation, and the remainder of the half hour for questions from your audience.
 
 ### Submit
 Please submit the following items in Canvas:
@@ -225,15 +226,7 @@ Please submit the following items in Canvas:
 - Description of the biggest challenges faced by your team and how you dealt with them as a team.
 
 ## Individual Contribution
-Even though the project presentation is a team effort, the **individual** portion of your project grade depends in part on your participation as a presenter.
-
-### Submit
-Please submit the following items in Canvas:
-- URLs
-  - Your GitHub PRs
-  - Your git commits
-- Describe your individual contributions to the team and project.
-- Share links to commits or Pull Requests that demonstrate your contributions.
+Even though the project presentation is a team effort, the **individual** portion of your project grade depends in part on your participation as a presenter. You level of particip- Share links to commits or Pull Requests that demonstrate your contributions.
 - Answers to these questions:
   - Roughly how many hours total did you spend on this project?
   - What were the biggest challenges you faced as an individual, and how did you dealt with them?
@@ -261,11 +254,6 @@ Please submit the following items in Canvas:
   - Uses domain models to encapsulate data and behavior -- OOP is required !
   - Contains no unnecessary code
 
-## Presentation
-
-On the last day of project week, present your project as a team in front of the class. Your level of participation and your presentation quality will contribute to your grade.
-- Explain your project's problem domain and your team's solution.
-- Explain the challenges that arose during project week and how your team overcame them.
 
 ---
 ---
