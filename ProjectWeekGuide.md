@@ -255,9 +255,10 @@ Please submit the following items in Canvas:
 ## Individual Contribution
 Even though the project presentation is a team effort, the *individual* portion of your Project grade depends partially on your participation as a presenter.
 
-- Share links to commits and PRs that show your individual effort.
-  **IMPORTANT NOTE**: If you spend most of your time just navigating, you won't have a fair share of git commits under *your* github username, and will lose a **significant** percentage of points on your individual grade. Make sure you have a fair share of commits for all three languages (HTML, CSS, and JS).
+**IMPORTANT NOTE**: If you spend most of your time just navigating, you won't have a fair share of git commits under *your* github username, and will lose a **significant** percentage of points from your Individual Contribution grade. Make sure you have a fair share of commits for all three languages (HTML, CSS, and JS).
 
+### Submit
+- Share links to commits and PRs that show your individual effort.
 - Answers to these questions:
   - Roughly how many hours total did you spend on this project?
   - What were the biggest challenges you faced as an individual, and how did you dealt with them?
